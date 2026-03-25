@@ -8,7 +8,6 @@ import { CraftInEverydayLifeSection } from "./components/craft-in-everyday-life-
 import { ExhibitionArchiveSection } from "./components/exhibition-archive-section";
 import { MeetCraftsmenSection } from "./components/meet-craftsmen-section";
 import { EventsSupportSection } from "./components/events-support-section";
-import { NewsletterSection } from "./components/newsletter-section";
 
 export default function Page() {
   return (
@@ -21,7 +20,6 @@ export default function Page() {
       <ExhibitionArchiveSection />
       <MeetCraftsmenSection />
       <EventsSupportSection />
-      <NewsletterSection />
     </main>
   );
 }

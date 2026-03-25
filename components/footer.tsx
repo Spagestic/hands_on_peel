@@ -127,25 +127,52 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Social Media */}
-          <div>
-            <h3 className="mb-6 text-sm font-mono uppercase tracking-[0.14em] text-foreground/70">
-              Social Media
-            </h3>
+          {/* Newsletter & Social Media */}
+          <div className="space-y-12">
+            <div>
+              <h3 className="mb-6 text-sm font-mono uppercase tracking-[0.14em] text-foreground/70">
+                Newsletter
+              </h3>
+              <form
+                className="space-y-4"
+                onSubmit={(event) => event.preventDefault()}
+              >
+                <div className="flex flex-col gap-3 sm:flex-row lg:flex-col xl:flex-row">
+                  <input
+                    id="footer-newsletter-email"
+                    type="email"
+                    placeholder="you@example.com"
+                    className="h-12 w-full min-w-0 sm:flex-1 lg:flex-none xl:flex-1 border border-foreground/15 bg-background px-4 text-sm outline-none transition-colors placeholder:text-muted-foreground/60 focus:border-foreground/30"
+                  />
+                  <button
+                    type="submit"
+                    className="inline-flex h-12 items-center justify-center border border-foreground/15 px-5 text-xs font-mono uppercase tracking-[0.22em] text-foreground transition-colors hover:bg-foreground hover:text-background"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
 
-            <div className="flex items-center gap-4">
-              {socialLinks.map(({ label, href, icon: Icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label={label}
-                  className="flex h-12 w-12 items-center justify-center rounded-full border border-foreground/10 bg-foreground/5 text-foreground/70 transition-all duration-300 hover:border-foreground/20 hover:bg-foreground/10 hover:text-foreground"
-                >
-                  <Icon className="h-5 w-5" strokeWidth={1.75} />
-                </a>
-              ))}
+            <div>
+              <h3 className="mb-6 text-sm font-mono uppercase tracking-[0.14em] text-foreground/70">
+                Social Media
+              </h3>
+
+              <div className="flex items-center gap-4">
+                {socialLinks.map(({ label, href, icon: Icon }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={label}
+                    className="flex h-12 w-12 items-center justify-center rounded-full border border-foreground/10 bg-foreground/5 text-foreground/70 transition-all duration-300 hover:border-foreground/20 hover:bg-foreground/10 hover:text-foreground"
+                  >
+                    <Icon className="h-5 w-5" strokeWidth={1.75} />
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </div>
