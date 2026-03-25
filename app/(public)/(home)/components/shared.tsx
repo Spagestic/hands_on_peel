@@ -36,24 +36,36 @@ export function ImageFrame({
   priority = false,
   sizes = "(min-width: 1024px) 50vw, 100vw",
 }: {
-  src: string;
+  src?: string | null;
   alt: string;
   className?: string;
   priority?: boolean;
   sizes?: string;
 }) {
+  const imageSrc = src?.trim();
+
   return (
     <div
       className={`relative overflow-hidden border border-foreground/10 bg-muted ${className}`}
+      role={imageSrc ? undefined : "img"}
+      aria-label={imageSrc ? undefined : alt}
     >
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        className="object-cover"
-        priority={priority}
-        sizes={sizes}
-      />
+      {imageSrc ? (
+        <Image
+          src={imageSrc}
+          alt={alt}
+          fill
+          className="object-cover"
+          priority={priority}
+          sizes={sizes}
+        />
+      ) : (
+        <div className="absolute inset-0 flex items-center justify-center bg-linear-to-br from-foreground/5 via-transparent to-foreground/5 p-6 text-center">
+          <span className="text-xs font-mono uppercase tracking-[0.22em] text-muted-foreground/70">
+            Image unavailable
+          </span>
+        </div>
+      )}
     </div>
   );
 }

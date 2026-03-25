@@ -3,8 +3,7 @@ export const currentExhibition = {
   subtitle: "2023 · London Craft Week",
   summary:
     "A celebration of Hong Kong artisans, memory, and living heritage across materials, gestures, and everyday forms.",
-  image:
-    "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43531-scaled.jpg",
+  image: "",
   details: [
     "Venue: London Craft Week",
     "Date: 2023",
@@ -18,8 +17,7 @@ export const featuredArtisan = {
   craft: "Metalwork and found-object composition",
   quote:
     "I try to keep the trace of the hand visible. That small irregularity is where the story stays alive.",
-  image:
-    "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43364-1-scaled.jpg",
+  image: "",
   href: "/craftsmen/ming-ho",
 };
 
@@ -27,8 +25,7 @@ export const everydayCrafts = [
   {
     title: "Galvanised steel",
     subtitle: "Old shop gates and street fixtures",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43531-scaled.jpg",
+    image: "",
   },
   {
     title: "Bamboo craft",
@@ -45,8 +42,7 @@ export const everydayCrafts = [
   {
     title: "Temple gilding",
     subtitle: "Ritual objects and devotional surfaces",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43364-1-scaled.jpg",
+    image: "",
   },
 ];
 
@@ -56,8 +52,7 @@ export const exhibitionArchive = [
     year: "2024 · Hong Kong",
     summary: "A conversation between master makers and contemporary designers.",
     href: "/exhibitions/creative-cross-pollination",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43531-scaled.jpg",
+    image: "",
   },
   {
     title: "Crafts Interwoven",
@@ -65,16 +60,14 @@ export const exhibitionArchive = [
     summary:
       "Interlaced materials, shared methods, and cross-generational practice.",
     href: "/exhibitions/crafts-interwoven",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43364-1-scaled.jpg",
+    image: "",
   },
   {
     title: "Embracing Craft",
     year: "2022 · Community Archive",
     summary: "A soft-spoken record of techniques, tools, and lived memory.",
     href: "/exhibitions/embracing-craft",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43531-scaled.jpg",
+    image: "",
   },
 ];
 
@@ -82,29 +75,25 @@ export const craftsmen = [
   {
     name: "Chan Wai",
     craft: "Bamboo construction",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43531-scaled.jpg",
+    image: "",
     href: "/craftsmen/chan-wai",
   },
   {
     name: "Lau Mei",
     craft: "Embroidery",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43364-1-scaled.jpg",
+    image: "",
     href: "/craftsmen/lau-mei",
   },
   {
     name: "Ho Kin",
     craft: "Metal fitting and repair",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43531-scaled.jpg",
+    image: "",
     href: "/craftsmen/ho-kin",
   },
   {
     name: "Ng Yuk",
     craft: "Temple ornamentation",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2025/11/20251104_COP_43364-1-scaled.jpg",
+    image: "",
     href: "/craftsmen/ng-yuk",
   },
 ];
