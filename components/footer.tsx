@@ -137,12 +137,12 @@ export function Footer() {
                 className="space-y-4"
                 onSubmit={(event) => event.preventDefault()}
               >
-                <div className="flex flex-col gap-3 sm:flex-row lg:flex-col xl:flex-row">
+                <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
                   <input
                     id="footer-newsletter-email"
                     type="email"
                     placeholder="you@example.com"
-                    className="h-12 w-full min-w-0 sm:flex-1 lg:flex-none xl:flex-1 border border-foreground/15 bg-background px-4 text-sm outline-none transition-colors placeholder:text-muted-foreground/60 focus:border-foreground/30"
+                    className="h-12 w-full min-w-0 sm:flex-1 lg:flex-none border border-foreground/15 bg-background px-4 text-sm outline-none transition-colors placeholder:text-muted-foreground/60 focus:border-foreground/30"
                   />
                   <button
                     type="submit"
