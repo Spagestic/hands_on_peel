@@ -24,7 +24,7 @@ export function Navbar() {
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className="sticky top-0 z-50 w-full"
     >
-      <nav className="w-full border-b border-foreground/15 bg-background/85 backdrop-blur-md">
+      <nav className="w-full border-b border-foreground/15 bg-background">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
           {/* Logo */}
           <motion.div

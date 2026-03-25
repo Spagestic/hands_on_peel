@@ -1,16 +1,10 @@
 import React from "react";
+import Hero from "@/components/hero";
 
-export default function page() {
+export default function Page() {
   return (
-    <div className="px-12 min-h-screen">
-      {Array.from({ length: 7 }).map((_, i) => (
-        <div key={i} className="space-y-2 mb-8">
-          <div className="bg-accent h-4 w-full rounded-md border" />
-          <div className="bg-accent h-4 w-full rounded-md border" />
-          <div className="bg-accent h-4 w-full rounded-md border" />
-          <div className="bg-accent h-4 w-1/2 rounded-md border" />
-        </div>
-      ))}
-    </div>
+    <main className="min-h-screen">
+      <Hero />
+    </main>
   );
 }

@@ -36,7 +36,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <TooltipProvider>
           <Navbar />
-          <main className="mt-6">{children}</main>
+          <main className="">{children}</main>
         </TooltipProvider>
       </body>
     </html>
