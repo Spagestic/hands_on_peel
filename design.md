@@ -91,9 +91,7 @@ The homepage should answer:
 +----------------------------------------------------------------------------------+
 | [FULL-WIDTH HERO IMAGE: artisan hands / material / workshop detail]              |
 |                                                                                  |
-|  HANDS OF PEEL                                                                   |
 |  Preserving craft, extending stories.                                            |
-|                                                                                  |
 |  A living archive of Hong Kong craftsmanship — exhibitions, artisan stories,     |
 |  workshops, and curated objects.                                                 |
 |                                                                                  |
