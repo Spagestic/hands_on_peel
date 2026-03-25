@@ -5,7 +5,7 @@ import HeroBackground from "./hero-background";
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden bg-slate-900">
+    <section className="relative w-full min-h-[calc(100svh-5rem)] flex items-center justify-center overflow-hidden bg-slate-900">
       <HeroBackground />
 
       <div className="relative z-20 flex flex-col items-start text-left text-white space-y-8 px-4 sm:px-6 lg:px-8 w-full max-w-7xl mx-auto mt-12">
