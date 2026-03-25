@@ -55,6 +55,14 @@ export const exhibitionArchive = [
     image: "",
   },
   {
+    title: "Crafting the Everyday",
+    year: "2024 · London",
+    summary:
+      "How do we experience craft in daily life, and how does it shape our sense of place?",
+    href: "/exhibitions/crafting-the-everyday",
+    image: "",
+  },
+  {
     title: "Crafts Interwoven",
     year: "2023 · Textile and Wood",
     summary:
