@@ -1,92 +1,193 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+
+const navLinks = [
+  { label: "Exhibitions", href: "/exhibitions" },
+  { label: "Events", href: "/events" },
+  { label: "Craftsmen", href: "/craftsmen" },
+  { label: "Shop", href: "/shop" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
+];
 
 export function Navbar() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
-    <motion.div
+    <motion.header
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className="sticky top-0 z-50 w-full"
     >
-      <nav className="w-full border border-foreground/20 bg-background/80 backdrop-blur-sm px-6 py-3 lg:px-8">
-        <div className="flex items-center justify-between">
+      <nav className="w-full border-b border-foreground/15 bg-background/85 backdrop-blur-md">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
           {/* Logo */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.2, duration: 0.4 }}
-            className="flex items-center gap-3"
+            transition={{ delay: 0.15, duration: 0.4 }}
+            className="flex items-center"
           >
-            <Image
-              src="/logo_full.png"
-              alt="Crafts on Peel Logo"
-              width={160}
-              height={160}
-              className="inline-block"
-            />
+            <Link href="/" className="flex items-center gap-3">
+              <Image
+                src="/logo_full.png"
+                alt="Crafts on Peel Logo"
+                width={160}
+                height={48}
+                className="h-auto w-30 sm:w-36.25 lg:w-40"
+                priority
+              />
+            </Link>
           </motion.div>
 
-          {/* Center nav links */}
+          {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
-            {[
-              "Exhibitions",
-              "Events",
-              "Craftsmen",
-              "Shop",
-              "About",
-              "Contact",
-            ].map((link, i) => (
-              <motion.a
-                key={link}
-                href="#"
+            {navLinks.map((link, i) => (
+              <motion.div
+                key={link.label}
                 initial={{ opacity: 0, y: -8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
-                  delay: 0.3 + i * 0.06,
+                  delay: 0.25 + i * 0.06,
                   duration: 0.4,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className="text-xs font-mono tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-200"
               >
-                {link}
-              </motion.a>
+                <Link
+                  href={link.href}
+                  className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors duration-200 hover:text-foreground"
+                >
+                  {link.label}
+                </Link>
+              </motion.div>
             ))}
           </div>
 
-          {/* Right side: Login + CTA */}
+          {/* Desktop right side */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, duration: 0.4 }}
-            className="flex items-center gap-4"
+            transition={{ delay: 0.45, duration: 0.4 }}
+            className="hidden md:flex items-center gap-4"
           >
-            <a
-              href="#"
-              className="hidden sm:block text-xs font-mono tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-200"
-            >
+            <button className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors duration-200 hover:text-foreground">
               EN
-            </a>
-            <a
-              href="#"
-              className="hidden sm:block text-xs font-mono tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-200"
-            >
+            </button>
+            <button className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors duration-200 hover:text-foreground">
               中文
-            </a>
-            <a href="#">
+            </button>
+
+            <Link href="/admin/login">
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="bg-foreground text-background px-4 py-2 text-xs font-mono tracking-widest uppercase"
+                className="bg-foreground text-background px-4 py-2 text-xs font-mono tracking-[0.22em] uppercase"
               >
                 Log In
               </motion.button>
-            </a>
+            </Link>
           </motion.div>
+
+          {/* Mobile menu button */}
+          <div className="md:hidden">
+            <button
+              type="button"
+              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
+              onClick={() => setMobileMenuOpen((prev) => !prev)}
+              className="inline-flex h-10 w-10 items-center justify-center border border-foreground/15 text-foreground transition hover:bg-foreground/5"
+            >
+              <span className="sr-only">Toggle navigation menu</span>
+              <div className="relative h-4 w-5">
+                <motion.span
+                  animate={
+                    mobileMenuOpen ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }
+                  }
+                  className="absolute left-0 top-0 h-[1.5px] w-5 bg-current"
+                />
+                <motion.span
+                  animate={mobileMenuOpen ? { opacity: 0 } : { opacity: 1 }}
+                  className="absolute left-0 top-1.5 h-[1.5px] w-5 bg-current"
+                />
+                <motion.span
+                  animate={
+                    mobileMenuOpen
+                      ? { rotate: -45, y: -6 }
+                      : { rotate: 0, y: 0 }
+                  }
+                  className="absolute left-0 top-3 h-[1.5px] w-5 bg-current"
+                />
+              </div>
+            </button>
+          </div>
         </div>
+
+        {/* Mobile dropdown */}
+        <AnimatePresence>
+          {mobileMenuOpen && (
+            <motion.div
+              id="mobile-menu"
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+              className="overflow-hidden border-t border-foreground/10 md:hidden"
+            >
+              <div className="px-4 py-4 sm:px-6">
+                <div className="flex flex-col">
+                  {navLinks.map((link, i) => (
+                    <motion.div
+                      key={link.label}
+                      initial={{ opacity: 0, y: -6 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{
+                        delay: i * 0.04,
+                        duration: 0.22,
+                      }}
+                    >
+                      <Link
+                        href={link.href}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="block border-b border-foreground/8 py-3 text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors hover:text-foreground"
+                      >
+                        {link.label}
+                      </Link>
+                    </motion.div>
+                  ))}
+
+                  <div className="flex items-center gap-4 pt-4">
+                    <button className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors hover:text-foreground">
+                      EN
+                    </button>
+                    <button className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors hover:text-foreground">
+                      中文
+                    </button>
+                  </div>
+
+                  <Link
+                    href="/admin/login"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="mt-4 inline-block w-full"
+                  >
+                    <motion.button
+                      whileTap={{ scale: 0.98 }}
+                      className="w-full bg-foreground px-4 py-3 text-xs font-mono tracking-[0.22em] uppercase text-background"
+                    >
+                      Log In
+                    </motion.button>
+                  </Link>
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </nav>
-    </motion.div>
+    </motion.header>
   );
 }
