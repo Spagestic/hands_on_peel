@@ -39,7 +39,8 @@ export function Navbar() {
                 alt="Crafts on Peel Logo"
                 width={160}
                 height={48}
-                className="h-auto w-30 sm:w-36.25 lg:w-40"
+                className="h-auto w-24 sm:w-28 lg:w-32"
+                style={{ width: "auto", height: "auto" }}
                 priority
               />
             </Link>
