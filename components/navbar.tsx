@@ -46,7 +46,7 @@ export function Navbar() {
           </motion.div>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-4 xl:gap-8">
             {navLinks.map((link, i) => (
               <motion.div
                 key={link.label}
@@ -73,7 +73,7 @@ export function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.45, duration: 0.4 }}
-            className="hidden md:flex items-center gap-4"
+            className="hidden lg:flex items-center gap-4"
           >
             <button className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors duration-200 hover:text-foreground">
               EN
@@ -94,7 +94,7 @@ export function Navbar() {
           </motion.div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               type="button"
               aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
@@ -137,7 +137,7 @@ export function Navbar() {
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-              className="overflow-hidden border-t border-foreground/10 md:hidden"
+              className="overflow-hidden border-t border-foreground/10 lg:hidden"
             >
               <div className="px-4 py-4 sm:px-6">
                 <div className="flex flex-col">
