@@ -1,30 +1,12 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import * as motion from "motion/react-client";
-import Image from "next/image";
+import HeroBackground from "@/components/hero-background";
 
 export default function Hero() {
   return (
     <section className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden bg-slate-900">
-      {/* Background Image */
-      /* Using a placeholder from Unsplash that fits "artisan hands / material / workshop detail" */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-linear-to-b from-black/80 via-black/40 to-black/80 z-10" />
-        {/* CSS Noise Overlay for texture */}
-        <div
-          className="absolute inset-0 z-10 opacity-20 mix-blend-overlay pointer-events-none"
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.8'/%3E%3C/svg%3E")`,
-          }}
-        />
-        <Image
-          src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?q=80&w=2070&auto=format&fit=crop"
-          alt="Artisan workshop details"
-          fill
-          className="object-cover"
-          priority
-        />
-      </div>
+      <HeroBackground />
 
       <div className="relative z-20 flex flex-col items-start text-left text-white space-y-8 px-4 sm:px-6 lg:px-8 w-full max-w-7xl mx-auto mt-12">
         <motion.h1
