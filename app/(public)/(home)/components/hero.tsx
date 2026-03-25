@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import * as motion from "motion/react-client";
-import HeroBackground from "@/components/hero-background";
+import HeroBackground from "./hero-background";
 
 export default function Hero() {
   return (
