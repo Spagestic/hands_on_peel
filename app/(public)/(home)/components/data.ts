@@ -96,6 +96,12 @@ export const craftsmen = [
     image: "",
     href: "/craftsmen/ng-yuk",
   },
+  {
+    name: "Wong Siu",
+    craft: "Bamboo weaving",
+    image: "",
+    href: "/craftsmen/wong-siu",
+  },
 ];
 
 export const upcomingEvents = [
