@@ -43,6 +43,7 @@ export default function HeroBackground() {
             fill
             className="object-cover"
             priority={index === 0}
+            loading={index === 0 ? "eager" : "lazy"}
           />
         </motion.div>
       ))}
