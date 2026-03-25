@@ -1,3 +1,4 @@
+// app/(public)/(home)/page.tsx
 import React from "react";
 import Hero from "./components/hero";
 import { CurrentExhibitionSection } from "./components/current-exhibition-section";
