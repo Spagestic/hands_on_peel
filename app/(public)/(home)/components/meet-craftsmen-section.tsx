@@ -22,6 +22,7 @@ export function MeetCraftsmenSection() {
         <Carousel
           opts={{
             align: "start",
+            slidesToScroll: 2,
           }}
           className="w-full"
         >

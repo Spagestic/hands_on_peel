@@ -18,6 +18,7 @@ export function ExhibitionArchiveSection() {
         <Carousel
           opts={{
             align: "start",
+            slidesToScroll: 2,
           }}
           className="w-full"
         >
