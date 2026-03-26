@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { upcomingEvents } from "./data";
+import { upcomingEvents } from "./data/index";
 import { containerClass, ctaClass, eyebrowClass, sectionClass } from "./shared";
 
 export function EventsSupportSection() {
   return (
-    <section className={sectionClass}>
+    <section id="support" className={sectionClass}>
       <div className={containerClass}>
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-10">
           <article className="border border-foreground/10 bg-muted/30 p-6 sm:p-8">
@@ -53,7 +53,7 @@ export function EventsSupportSection() {
                 <span>Shop</span>
                 <ArrowRight className="h-4 w-4" />
               </Link>
-              <Link href="/support" className={ctaClass}>
+              <Link href="/#support" className={ctaClass}>
                 <span>Donate</span>
                 <ArrowRight className="h-4 w-4" />
               </Link>
