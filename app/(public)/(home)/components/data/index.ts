@@ -3,4 +3,4 @@ export { featuredArtisan } from "./featured-artisan";
 export { everydayCrafts } from "./everyday-crafts";
 export { exhibitionArchive } from "./exhibition-archive";
 export { craftsmen } from "./craftsmen";
-export { upcomingEvents, pastEvents } from "./events";
+export { pastEvents, workshopShowcase } from "./events";

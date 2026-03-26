@@ -4,7 +4,8 @@ import { WhyCraftSection } from "./components/why-craft-section";
 import { CraftInEverydayLifeSection } from "./components/craft-in-everyday-life-section";
 import { ExhibitionArchiveSection } from "./components/exhibition-archive-section";
 import { MeetCraftsmenSection } from "./components/meet-craftsmen-section";
-import { EventsSupportSection } from "./components/events-support-section";
+import { EventsSection } from "./components/events-section";
+import { SupportSection } from "./components/support-section";
 
 export default function Page() {
   return (
@@ -14,7 +15,8 @@ export default function Page() {
       <CraftInEverydayLifeSection />
       <ExhibitionArchiveSection />
       <MeetCraftsmenSection />
-      <EventsSupportSection />
+      <EventsSection />
+      <SupportSection />
     </div>
   );
 }

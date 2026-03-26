@@ -1,10 +1,3 @@
-export const upcomingEvents = [
-  "Bamboo workshop",
-  "Artisan talk",
-  "HKBU campus session",
-  "Intergenerational workshop",
-];
-
 export const pastEvents = [
   {
     title: "Craft Discovery Workshop – Woodworking Experience",
@@ -288,5 +281,28 @@ export const pastEvents = [
     material: "Bamboo",
     start_date: "7 Mar 2020",
     end_date: "7 Mar 2020",
+  },
+];
+
+export const workshopShowcase = [
+  {
+    ...pastEvents[0],
+    image:
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    ...pastEvents[1],
+    image:
+      "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    ...pastEvents[2],
+    image:
+      "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    ...pastEvents[3],
+    image:
+      "https://images.unsplash.com/photo-1494949649109-ecfc3b8c35df?auto=format&fit=crop&w=1200&q=80",
   },
 ];
