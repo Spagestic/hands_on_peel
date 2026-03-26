@@ -2,7 +2,11 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Facebook, Instagram, MessageCircle } from "lucide-react";
+import {
+  IconBrandFacebook,
+  IconBrandInstagram,
+  IconBrandWhatsapp,
+} from "@tabler/icons-react";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
@@ -20,17 +24,17 @@ const socialLinks = [
   {
     label: "Facebook",
     href: "https://www.facebook.com/craftsonpeel",
-    icon: Facebook,
+    icon: IconBrandFacebook,
   },
   {
     label: "Instagram",
     href: "https://www.instagram.com/crafts_on_peel_hk/",
-    icon: Instagram,
+    icon: IconBrandInstagram,
   },
   {
     label: "WhatsApp",
     href: "https://wa.me/message/2XP2P3UDUT55H1",
-    icon: MessageCircle,
+    icon: IconBrandWhatsapp,
   },
 ];
 
