@@ -76,18 +76,22 @@ export function Navbar() {
             transition={{ delay: 0.45, duration: 0.4 }}
             className="hidden lg:flex items-center gap-4"
           >
-            <button className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors duration-200 hover:text-foreground">
-              EN
-            </button>
-            <button className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors duration-200 hover:text-foreground">
-              中文
-            </button>
+            <Link href="#">
+              <button className="text-xs font-mono tracking-[0.22em] text-foreground font-medium hover:cursor-pointer">
+                EN
+              </button>
+            </Link>
+            <Link href="#">
+              <button className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors duration-200 hover:text-foreground hover:cursor-pointer">
+                中文
+              </button>
+            </Link>
 
             <Link href="/support">
               <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="bg-foreground text-background px-4 py-2 text-xs font-mono tracking-[0.22em] uppercase"
+                // whileHover={{ scale: 1.02 }}
+                // whileTap={{ scale: 0.98 }}
+                className="border border-foreground bg-foreground text-background px-4 py-2 text-xs font-mono tracking-[0.22em] uppercase transition-colors hover:bg-transparent hover:text-foreground hover:cursor-pointer"
               >
                 Support
               </motion.button>
@@ -178,7 +182,7 @@ export function Navbar() {
                   >
                     <motion.button
                       whileTap={{ scale: 0.98 }}
-                      className="w-full bg-foreground px-4 py-3 text-xs font-mono tracking-[0.22em] uppercase text-background"
+                      className="w-full border border-foreground bg-foreground text-background px-4 py-3 text-xs font-mono tracking-[0.22em] uppercase transition-colors hover:bg-transparent hover:text-foreground"
                     >
                       Support
                     </motion.button>
