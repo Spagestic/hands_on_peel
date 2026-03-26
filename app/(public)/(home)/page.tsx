@@ -8,13 +8,13 @@ import { EventsSupportSection } from "./components/events-support-section";
 
 export default function Page() {
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       <Hero />
       <WhyCraftSection />
       <CraftInEverydayLifeSection />
       <ExhibitionArchiveSection />
       <MeetCraftsmenSection />
       <EventsSupportSection />
-    </main>
+    </div>
   );
 }
