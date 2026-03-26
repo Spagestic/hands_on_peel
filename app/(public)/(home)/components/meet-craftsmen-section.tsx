@@ -48,7 +48,7 @@ export function MeetCraftsmenSection() {
                   <ImageFrame
                     src={craftsman.image}
                     alt={craftsman.name}
-                    className="aspect-3/4"
+                    className="aspect-4/3"
                     sizes="(min-width: 1024px) 25vw, 100vw"
                   />
                   <div className="space-y-3 p-5">
