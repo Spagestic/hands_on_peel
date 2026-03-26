@@ -11,6 +11,12 @@ import {
 } from "./shared";
 
 export function CurrentExhibitionSection() {
+  const exhibitionDetails = [
+    { label: "Year", value: currentExhibition.year },
+    { label: "Location", value: currentExhibition.location },
+    { label: "Category", value: currentExhibition.category },
+  ].filter((item) => item.value);
+
   return (
     <section className={sectionClass}>
       <div className={containerClass}>
@@ -22,12 +28,12 @@ export function CurrentExhibitionSection() {
                 {currentExhibition.title}
               </h2>
               <p className="text-sm font-mono uppercase tracking-[0.22em] text-muted-foreground">
-                {currentExhibition.subtitle}
+                {currentExhibition.dateLabel ?? currentExhibition.subtitle}
               </p>
             </div>
 
             <ImageFrame
-              src={currentExhibition.image}
+              src={currentExhibition.poster ?? currentExhibition.image}
               alt={currentExhibition.title}
               className="aspect-4/3"
               priority
@@ -36,12 +42,15 @@ export function CurrentExhibitionSection() {
             <div className="max-w-2xl space-y-4">
               <p className={bodyClass}>{currentExhibition.summary}</p>
               <ul className="grid gap-2 text-sm text-foreground/70 sm:grid-cols-3">
-                {currentExhibition.details.map((item) => (
+                {exhibitionDetails.map((item) => (
                   <li
-                    key={item}
+                    key={item.label}
                     className="border border-foreground/10 px-3 py-2"
                   >
-                    {item}
+                    <span className="font-mono uppercase tracking-[0.2em] text-muted-foreground">
+                      {item.label}
+                    </span>
+                    <span className="mt-2 block">{item.value}</span>
                   </li>
                 ))}
               </ul>
