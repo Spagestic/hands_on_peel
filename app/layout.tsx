@@ -38,7 +38,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <TooltipProvider>
           <Navbar />
-          <main className="">{children}</main>
+          <main className="flex-1">{children}</main>
           <Footer />
         </TooltipProvider>
       </body>
