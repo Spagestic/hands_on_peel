@@ -42,8 +42,9 @@ export default function HeroBackground() {
             alt={`Artisan workshop details ${index + 1}`}
             fill
             className="object-cover"
-            priority={index === 0}
+            preload={index === 0}
             loading={index === 0 ? "eager" : "lazy"}
+            fetchPriority={index === 0 ? "high" : "auto"}
           />
         </motion.div>
       ))}
