@@ -41,7 +41,7 @@ export function MeetCraftsmenSection() {
             {craftsmen.map((craftsman) => (
               <CarouselItem
                 key={craftsman.name}
-                className="pl-6 basis-[18rem] sm:basis-[20rem] xl:basis-88"
+                className="pl-6 basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
               >
                 <article className="group h-full overflow-hidden border border-foreground/10 bg-background">
                   <ImageFrame

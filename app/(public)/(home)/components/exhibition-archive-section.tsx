@@ -37,12 +37,12 @@ export function ExhibitionArchiveSection() {
             {exhibitionArchive.map((item) => (
               <CarouselItem
                 key={item.title}
-                className="pl-6 basis-[18rem] sm:basis-[20rem] xl:basis-88"
+                className="pl-6 basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
               >
                 <SectionCard {...item} />
               </CarouselItem>
             ))}
-            <CarouselItem className="pl-6 basis-[18rem] sm:basis-[20rem] xl:basis-88">
+            <CarouselItem className="pl-6 basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
               <Link
                 href="/exhibitions"
                 className="group flex h-full min-h-100 flex-col items-center justify-center gap-4 rounded-xl border border-dashed p-6 text-muted-foreground transition-colors hover:bg-muted/50 hover:text-foreground"
