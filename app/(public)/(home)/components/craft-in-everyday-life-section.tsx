@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { everydayCrafts } from "./data";
 import {
   containerClass,
@@ -37,13 +35,13 @@ export function CraftInEverydayLifeSection() {
                 <p className="text-sm leading-7 text-foreground/70">
                   {item.subtitle}
                 </p>
-                <Link
+                {/* <Link
                   href="/about"
                   className="mt-auto inline-flex items-center gap-2 text-xs font-mono uppercase tracking-[0.2em] text-foreground/70 transition-colors group-hover:text-foreground"
                 >
                   Learn more
                   <ArrowRight className="h-3.5 w-3.5" />
-                </Link>
+                </Link> */}
               </div>
             </article>
           ))}
