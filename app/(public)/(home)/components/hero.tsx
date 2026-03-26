@@ -52,15 +52,6 @@ export default function Hero() {
               View Events
             </Button>
           </Link>
-          <Link href="/support" className="w-full sm:w-auto">
-            <Button
-              size="lg"
-              variant="outline"
-              className="text-white border-white/40 hover:bg-white/10 hover:text-white rounded-none text-xs font-mono tracking-[0.22em] uppercase h-12 px-8 backdrop-blur-sm bg-black/20 w-full"
-            >
-              Support
-            </Button>
-          </Link>
         </motion.div>
       </div>
     </section>
