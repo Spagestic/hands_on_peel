@@ -83,13 +83,13 @@ export function Navbar() {
               中文
             </button>
 
-            <Link href="/admin/login">
+            <Link href="/support">
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="bg-foreground text-background px-4 py-2 text-xs font-mono tracking-[0.22em] uppercase"
               >
-                Log In
+                Support
               </motion.button>
             </Link>
           </motion.div>
@@ -172,7 +172,7 @@ export function Navbar() {
                   </div>
 
                   <Link
-                    href="/admin/login"
+                    href="/support"
                     onClick={() => setMobileMenuOpen(false)}
                     className="mt-4 inline-block w-full"
                   >
@@ -180,7 +180,7 @@ export function Navbar() {
                       whileTap={{ scale: 0.98 }}
                       className="w-full bg-foreground px-4 py-3 text-xs font-mono tracking-[0.22em] uppercase text-background"
                     >
-                      Log In
+                      Support
                     </motion.button>
                   </Link>
                 </div>
