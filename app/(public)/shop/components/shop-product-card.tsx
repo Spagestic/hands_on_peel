@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { ImageFrame } from "../../(home)/components/shared";
 import type { ShopProduct } from "../utils";
@@ -36,12 +35,7 @@ export function ShopProductCard({ item }: { item: ShopProduct }) {
 
             <div className="flex flex-col gap-2">
               <h3 className="line-clamp-2 text-xl font-medium tracking-tight text-foreground">
-                <Link
-                  href={item.href}
-                  className="hover:underline underline-offset-4"
-                >
-                  {item.title}
-                </Link>
+                {item.title}
               </h3>
               <p className="text-xs font-mono uppercase tracking-[0.2em] text-muted-foreground">
                 {item.artisan}
