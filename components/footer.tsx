@@ -1,14 +1,9 @@
-"use client";
-
-import { motion } from "framer-motion";
 import Link from "next/link";
 import {
   IconBrandFacebook,
   IconBrandInstagram,
   IconBrandWhatsapp,
 } from "@tabler/icons-react";
-
-const ease = [0.22, 1, 0.36, 1] as const;
 
 const navLinks = [
   { label: "About Us", href: "/about" },
@@ -40,13 +35,7 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <motion.footer
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true, margin: "-40px" }}
-      transition={{ duration: 0.6, ease }}
-      className="border-t border-foreground/10 bg-background px-6 pb-10 pt-16 md:px-12 md:pt-20"
-    >
+    <footer className="border-t border-foreground/10 bg-background px-6 pb-10 pt-16 md:px-12 md:pt-20">
       <div className="mx-auto max-w-7xl">
         {/* Main footer grid */}
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4 lg:gap-16">
@@ -137,10 +126,7 @@ export function Footer() {
               <h3 className="mb-6 text-sm font-mono uppercase tracking-[0.14em] text-foreground/70">
                 Newsletter
               </h3>
-              <form
-                className="space-y-4"
-                onSubmit={(event) => event.preventDefault()}
-              >
+              <form className="space-y-4">
                 <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
                   <input
                     id="footer-newsletter-email"
@@ -149,7 +135,7 @@ export function Footer() {
                     className="h-12 w-full min-w-0 sm:flex-1 lg:flex-none border border-foreground/15 bg-background px-4 text-sm outline-none transition-colors placeholder:text-muted-foreground/60 focus:border-foreground/30"
                   />
                   <button
-                    type="submit"
+                    type="button"
                     className="inline-flex h-12 items-center justify-center border border-foreground/15 px-5 text-xs font-mono uppercase tracking-[0.22em] text-foreground transition-colors hover:bg-foreground hover:text-background"
                   >
                     Subscribe
@@ -222,6 +208,6 @@ export function Footer() {
           </div>
         </div>
       </div>
-    </motion.footer>
+    </footer>
   );
 }

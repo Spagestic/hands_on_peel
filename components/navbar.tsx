@@ -1,7 +1,3 @@
-"use client";
-
-import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -15,24 +11,12 @@ const navLinks = [
 ];
 
 export function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
-    <motion.header
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className="sticky top-0 z-50 w-full"
-    >
-      <nav className="w-full border-b border-foreground/15 bg-background">
+    <header className="sticky top-0 z-50 w-full">
+      <nav className="relative w-full border-b border-foreground/15 bg-background">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
           {/* Logo */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.15, duration: 0.4 }}
-            className="flex items-center"
-          >
+          <div className="flex items-center">
             <Link href="/" className="flex items-center gap-3">
               <Image
                 src="/logo_full.png"
@@ -44,38 +28,24 @@ export function Navbar() {
                 priority
               />
             </Link>
-          </motion.div>
+          </div>
 
           {/* Desktop nav */}
           <div className="hidden lg:flex items-center gap-4 xl:gap-8">
-            {navLinks.map((link, i) => (
-              <motion.div
-                key={link.label}
-                initial={{ opacity: 0, y: -8 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{
-                  delay: 0.25 + i * 0.06,
-                  duration: 0.4,
-                  ease: [0.22, 1, 0.36, 1],
-                }}
-              >
+            {navLinks.map((link) => (
+              <div key={link.label}>
                 <Link
                   href={link.href}
                   className="text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors duration-200 hover:text-foreground"
                 >
                   {link.label}
                 </Link>
-              </motion.div>
+              </div>
             ))}
           </div>
 
           {/* Desktop right side */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.45, duration: 0.4 }}
-            className="hidden lg:flex items-center gap-4"
-          >
+          <div className="hidden lg:flex items-center gap-4">
             <Link href="#">
               <button className="text-xs font-mono tracking-[0.22em] text-foreground font-medium hover:cursor-pointer">
                 EN
@@ -88,82 +58,40 @@ export function Navbar() {
             </Link>
 
             <Link href="/support">
-              <motion.button
-                // whileHover={{ scale: 1.02 }}
-                // whileTap={{ scale: 0.98 }}
-                className="border border-foreground bg-foreground text-background px-4 py-2 text-xs font-mono tracking-[0.22em] uppercase transition-colors hover:bg-transparent hover:text-foreground hover:cursor-pointer"
-              >
+              <button className="border border-foreground bg-foreground text-background px-4 py-2 text-xs font-mono tracking-[0.22em] uppercase transition-colors hover:bg-transparent hover:text-foreground hover:cursor-pointer">
                 Support
-              </motion.button>
+              </button>
             </Link>
-          </motion.div>
+          </div>
 
-          {/* Mobile menu button */}
-          <div className="lg:hidden">
-            <button
-              type="button"
-              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
-              aria-expanded={mobileMenuOpen}
+          {/* Mobile menu button + dropdown */}
+          <details className="group lg:hidden">
+            <summary
+              aria-label="Toggle navigation menu"
               aria-controls="mobile-menu"
-              onClick={() => setMobileMenuOpen((prev) => !prev)}
-              className="inline-flex h-10 w-10 items-center justify-center border border-foreground/15 text-foreground transition hover:bg-foreground/5"
+              className="inline-flex h-10 w-10 cursor-pointer list-none items-center justify-center border border-foreground/15 text-foreground transition hover:bg-foreground/5 [&::-webkit-details-marker]:hidden"
             >
               <span className="sr-only">Toggle navigation menu</span>
               <div className="relative h-4 w-5">
-                <motion.span
-                  animate={
-                    mobileMenuOpen ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }
-                  }
-                  className="absolute left-0 top-0 h-[1.5px] w-5 bg-current"
-                />
-                <motion.span
-                  animate={mobileMenuOpen ? { opacity: 0 } : { opacity: 1 }}
-                  className="absolute left-0 top-1.5 h-[1.5px] w-5 bg-current"
-                />
-                <motion.span
-                  animate={
-                    mobileMenuOpen
-                      ? { rotate: -45, y: -6 }
-                      : { rotate: 0, y: 0 }
-                  }
-                  className="absolute left-0 top-3 h-[1.5px] w-5 bg-current"
-                />
+                <span className="absolute left-0 top-0 h-[1.5px] w-5 bg-current transition-transform duration-200 group-open:translate-y-1.5 group-open:rotate-45" />
+                <span className="absolute left-0 top-1.5 h-[1.5px] w-5 bg-current transition-opacity duration-200 group-open:opacity-0" />
+                <span className="absolute left-0 top-3 h-[1.5px] w-5 bg-current transition-transform duration-200 group-open:-translate-y-1.5 group-open:-rotate-45" />
               </div>
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile dropdown */}
-        <AnimatePresence>
-          {mobileMenuOpen && (
-            <motion.div
+            </summary>
+            <div
               id="mobile-menu"
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-              className="overflow-hidden border-t border-foreground/10 lg:hidden"
+              className="absolute left-0 right-0 top-full max-h-0 overflow-hidden border-t border-foreground/10 bg-background transition-all duration-200 group-open:max-h-175"
             >
-              <div className="px-4 py-4 sm:px-6">
+              <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col">
-                  {navLinks.map((link, i) => (
-                    <motion.div
+                  {navLinks.map((link) => (
+                    <Link
                       key={link.label}
-                      initial={{ opacity: 0, y: -6 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{
-                        delay: i * 0.04,
-                        duration: 0.22,
-                      }}
+                      href={link.href}
+                      className="block border-b border-foreground/8 py-3 text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors hover:text-foreground"
                     >
-                      <Link
-                        href={link.href}
-                        onClick={() => setMobileMenuOpen(false)}
-                        className="block border-b border-foreground/8 py-3 text-xs font-mono tracking-[0.22em] uppercase text-muted-foreground transition-colors hover:text-foreground"
-                      >
-                        {link.label}
-                      </Link>
-                    </motion.div>
+                      {link.label}
+                    </Link>
                   ))}
 
                   <div className="flex items-center gap-4 pt-4">
@@ -175,24 +103,17 @@ export function Navbar() {
                     </button>
                   </div>
 
-                  <Link
-                    href="/support"
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="mt-4 inline-block w-full"
-                  >
-                    <motion.button
-                      whileTap={{ scale: 0.98 }}
-                      className="w-full border border-foreground bg-foreground text-background px-4 py-3 text-xs font-mono tracking-[0.22em] uppercase transition-colors hover:bg-transparent hover:text-foreground"
-                    >
+                  <Link href="/support" className="mt-4 inline-block w-full">
+                    <button className="w-full border border-foreground bg-foreground px-4 py-3 text-xs font-mono tracking-[0.22em] uppercase text-background transition-colors hover:bg-transparent hover:text-foreground">
                       Support
-                    </motion.button>
+                    </button>
                   </Link>
                 </div>
               </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+            </div>
+          </details>
+        </div>
       </nav>
-    </motion.header>
+    </header>
   );
 }
