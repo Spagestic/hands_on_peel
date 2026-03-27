@@ -37,7 +37,7 @@ export function ExhibitionArchiveSection() {
           <CarouselContent className="-ml-6">
             {exhibitionArchive.map((item) => (
               <CarouselItem
-                key={item.title}
+                key={item.href}
                 className="pl-6 basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
               >
                 <SectionCard {...item} />
