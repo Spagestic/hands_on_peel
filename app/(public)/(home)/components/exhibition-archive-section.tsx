@@ -22,7 +22,7 @@ export function ExhibitionArchiveSection() {
           }}
           className="w-full"
         >
-          <div className="mb-8 flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+          <div className="mb-4 flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
             <SectionHeading
               eyebrow="Exhibition archive"
               title="A living record of past shows"

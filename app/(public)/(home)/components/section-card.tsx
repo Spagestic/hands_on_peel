@@ -15,7 +15,7 @@ export function SectionCard({
       <ImageFrame
         src={image}
         alt={title}
-        className="aspect-3/4"
+        className="aspect-2/3"
         sizes="(min-width: 1024px) 25vw, 100vw"
       />
       <Link href={href} aria-label={title} className="absolute inset-0" />
