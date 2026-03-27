@@ -1,260 +1,694 @@
-[
-  {
-    "title": "MATERIAL 2023 Craft Discovery Workshop – Woodworking Experience",
-    "category": "Wood",
-    "date": "25 Mar, 2023",
-    "image": "https://www.craftsonpeel.com/wp-content/uploads/2023/03/4fff5d10-b96e-478b-bb2c-f819b05b878d-2.jpg"
-  },
-  {
-    "title": "Craft Discovery Workshop: Rattan Winding Technique",
-    "category": "Rattan weaving",
-    "date": "11 Mar, 2023",
-    "image": "https://www.craftsonpeel.com/wp-content/uploads/2023/03/Copy-of-Copy-of-Copy-of-MATERIAL-DISCOVERY-3.jpg"
-  },
-  {
-    "title": "Artisan’s Talk – Craftsmanship x Digital fabrication – The Making of “Sternhelma” – Chinese Checkers",
-    "category": "Artisan's Talk",
-    "date": "4 Mar, 2023",
-    "image": "https://www.craftsonpeel.com/wp-content/uploads/2023/02/Copy-of-Copy-of-MATERIAL-DISCOVERY-2.jpg"
-  },
-  {
-    "title": "Craft Discovery Workshop – Hand-Carved Mahjong",
-    "category": "Mahjong carving",
-    "date": "25 Feb, 2023",
-    "image": ""
-  },
-  {
-    "title": "Craft Discovery Workshop – Bamboo Steamer Making",
-    "category": "Bamboo",
-    "date": "18 Feb, 2023",
-    "image": ""
-  },
-  {
-    "title": "Four Seasons: Enchantment Engraved | LCW2022",
-    "category": "Metal",
-    "date": "10 May, 2022",
-    "image": ""
-  },
-  {
-    "title": "Craft Discovery – Metal Sculpting",
-    "category": "Metal",
-    "date": "4 Sep, 2021",
-    "image": ""
-  },
-  {
-    "title": "Craft x Design: Material Discovery Workshop – Galvanized Iron",
-    "category": "Metal",
-    "date": "21 Aug, 2021",
-    "image": ""
-  },
-  {
-    "title": "Metal Casting Discovery – Sculpting Workshop",
-    "category": "Metal",
-    "date": "14 Aug, 2021",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel x Passion Coffee: Coffee Tasting Workshop",
-    "category": "Metal",
-    "date": "31 Jul, 2021",
-    "image": ""
-  },
-  {
-    "title": "Craft x Design: Material Discovery Workshop – Galvanized Iron",
-    "category": "Metal",
-    "date": "3 Jul, 2021",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Ritual of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "19 Jun, 2021",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel x Passion Coffee: Coffee Tasting Workshop",
-    "category": "Metal",
-    "date": "29 May, 2021",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel x Passion Coffee: Coffee Tasting Workshop – Afternoon Section",
-    "category": "Metal",
-    "date": "29 May, 2021",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel x Coxper: Craft-ligraphy Workshop",
-    "category": "Metal",
-    "date": "22 May, 2021",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Tea Appreciation",
-    "category": null,
-    "date": "15 May, 2021",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel x Sunsmith: Raising and Sinking – Pure Tin Sake Cup Workshop",
-    "category": "Metal",
-    "date": "8 May, 2021",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel x Passion Coffee: Hand Drip Coffee Brewing Beginner’s Workshop – Evening Session",
-    "category": "Metal",
-    "date": "17 Apr, 2021",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel x Passion Coffee: Hand Drip Coffee Brewing Beginner’s Workshop",
-    "category": "Metal",
-    "date": "17 Apr, 2021",
-    "image": ""
-  },
-  {
-    "title": "Material Discovery Workshop – Hammer and Chisel Engraving",
-    "category": "Metal",
-    "date": "10 Apr, 2021",
-    "image": ""
-  },
-  {
-    "title": "Craft x Design: Material Discovery Workshop – Bamboo",
-    "category": "Bamboo",
-    "date": "5 Dec, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "18 Dec, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "12 Dec, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "4 Dec, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel x Waa Faa Cii: Song Dynasty Flower Arrangement in Bamboo Cylinder Vase",
-    "category": "Bamboo",
-    "date": "28 Nov, 2020",
-    "image": ""
-  },
-  {
-    "title": "Craft x Design: Material Discovery Workshop – Bamboo",
-    "category": "Bamboo",
-    "date": "14 Nov, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "28 Nov, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "21 Nov, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "13 Nov, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "7 Nov, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel X okapi studio: Handmade Bamboo and Backflow Incense Workshop",
-    "category": "Bamboo",
-    "date": "31 Oct, 2020",
-    "image": ""
-  },
-  {
-    "title": "Craft x Design: Material Discovery Workshop – Bamboo",
-    "category": "Bamboo",
-    "date": "7 Nov, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "10 Oct, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "24 Oct, 2020",
-    "image": ""
-  },
-  {
-    "title": "The Pursuit of Elegance: Rituals of Song Dynasty – Tea Appreciation",
-    "category": null,
-    "date": "16 Oct, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel X Jinno Neko: Mid-Autumn Bamboo Lantern-Making Workshop",
-    "category": "Bamboo",
-    "date": "26 Sep, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel X Ting For Chun: Shikainami Basketry Online Workshop",
-    "category": "Bamboo",
-    "date": "2 Sep, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel X Lam Duen Shan Ming: Canton Porcelain and Tea Appreciation",
-    "category": "Guangcai",
-    "date": "22 Jul, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel X Lam Duen Shan Ming: Canton Porcelain Workshop and Tea Appreciation",
-    "category": "Guangcai",
-    "date": "11 Jul, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel X Lam Duen Shan Ming: Canton Porcelain Workshop and Tea Appreciation",
-    "category": "Guangcai",
-    "date": "8 Jul, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel X Jinno Neko: Water Marbling Bamboo Framework Pet Yurt Workshop",
-    "category": "Bamboo",
-    "date": "21 Mar, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel X Jinno Neko: Bamboo Crafting and Papier-mâché Lantern Workshop",
-    "category": "Bamboo",
-    "date": "14 Mar, 2020",
-    "image": ""
-  },
-  {
-    "title": "Crafts on Peel X Yiwooo: Bamboo Weaving Workshop – Hemp Leaf Pattern",
-    "category": "Bamboo",
-    "date": "7 Mar, 2020",
-    "image": ""
-  }
-]
+{
+  "craftsonpeel_events": [
+    {
+      "event_id": "craft-discovery-workshop-woodworking-experience",
+      "event_id_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "event_title": "Craft Discovery Workshop – Woodworking Experience",
+      "event_title_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "event_date": "25 Mar 2023 (Sat)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "event_time": "3:00 - 5:00 PM",
+      "event_time_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "event_location": "11 Peel Street, Central",
+      "event_location_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "event_category": "Woodworking",
+      "event_category_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "event_language_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "instructor_bio": "#### **Contemporary Artisan**\n\n**Ken Chow**\n\nYat Muk Studio\n\nCarpenter\n\nKen Chow has devoted his working life to the craft of woodworking, constantly perfecting his techniques through experimentation and innovation. Having apprenticed in Taipei, Taichung, and Jilin, China, Ken established Yat Muk Studio to practice, research, and teach woodworking. “Yat Muk” means “a lifetime” and “woodwork” in Chinese—hoping to make furniture that can last a lifetime.\n\nKen aims to explore the authenticity of carpentry and woodworking machinery operations, re-igniting the woodworking culture in Hong Kong. For Ken Chow, woodworking is a form of meditation and exploration of the mind. He has been studying the tradition of woodworking in Hong Kong and honing his skills to create works that fully reveal the beauty of wood.",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "workshop_price": "HKD 600",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "event_description": "Woodworking is an ancient craft that involves the use of various tools to shape, cut and join wood to create functional and aesthetically pleasing objects.\n\nLed by Carpenter Ken Chow, this workshop allows participants to make two coasters made of American black walnut and Japanese cypress using traditional woodworking tools. While learning how to use a woodworking plane, participants will feel the tactility and fragrance of different wood species, as well as exploring the differences between woodworking tools and the materials. Ken will also share the traditional craft of Chidori joint originated from Hida, Japan, where participants will learn about its background and techniques through a craft kit.\n\nKen will also demonstrate the sophisticated mortise and tenon techniques, allowing participants to further appreciate the charm of woodworking.",
+      "event_description_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/",
+      "registration_link": "https://buy.stripe.com/cN29ATfXM2uqdZCfZ2",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-woodworking-experience/"
+    },
+    {
+      "event_id": "craft-discovery-workshop-rattan-winding-technique-experience",
+      "event_id_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "event_title": "Craft Discovery Workshop: Rattan Winding Technique Experience",
+      "event_title_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "event_date": "11 Mar 2023 (Sat)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "event_time": "3:00 PM - 4:30 PM",
+      "event_time_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_location_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "event_category": "Rattan",
+      "event_category_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "event_language_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "workshop_price": "HKD 500",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "event_description": "The rattan winding technique plays an important role in bamboo and rattan crafts in Asia. Whether it is bamboo or rattan, rattan winding is commonly used to refine the finished work and enhance its beauty.\n\nThe rattan skin is strong and soft, so it is used as a rim, a fastener, a corner protector, for all bamboo woven objects. In addition to its practicality, rattan is very versatile and can be used to create delicate patterns for decorative purposes, enhancing the quality of the piece.  The technique of rattan winding is a test of the craftsman’s patience and dedication to detail, which is why in many classic works you will find the craftsmen expressing their dedication to their crafts with rattan winding.\n\nIn this workshop, contemporary artisans Cecilia Lai and Barnard Chan will introduce the function, use and pattern of rattan winding, and also share the use of rattan winding to make a card holder.\n\n## **Cecilia Lai and Barnard Chan**\n\nContemporary Artisans\n\nBreakthrough Art Studio\n\n## **Quote:** **Crafts come from our innate demands in daily life and pursuit of beauty.**\n\nCecilia Lai has been interested in crafts since childhood, especially in exploring materials and making processes. She worked in the media industry after graduating with a Bachelor’s degree in Fashion and Textile at The Hong Kong Polytechnic University. After a few years, she turned to developing the craft of weaving. Barnard Chan was exposed to modern woodworking from childhood as his father was in the carpentry business.\n\nThe duo co-founded Breakthrough Art Studio in 2015 to focus on the exploration and research of traditional weaving crafts, as well as the cultural and creative industry. They are also developing a local brand of weaving tools and corresponding workshops. Based on their in-depth study of Southeast Asian textile culture, they have developed a comprehensive and structured curriculum to make the craft of weaving and the culture behind it more accessible to the public. They believe the exploration of crafts and natural materials is a never-ending journey, and each complements the other, motivating them to seek more possibilities in mixed media.",
+      "event_description_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "registration_link": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-rattan-winding-technique-experience/"
+    },
+    {
+      "event_id": "artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers",
+      "event_id_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "event_title": "Artisan’s Talk – Craftsmanship x Digital fabrication – The Making of “Sternhelma” – Chinese Checkers",
+      "event_title_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "event_date": "4 Mar 2023 (Sat)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "event_time": "3:00 PM - 4:00 PM",
+      "event_time_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_location_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "event_category": "Metal",
+      "event_category_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "event_language": "English",
+      "event_language_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "workshop_price": "HKD 50",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "event_description": "Join us at Crafts on Peel’s inaugural Artisan’s Talk on March 4 – an amazing event filled with interesting insights! This Artisan’s Talk will share the design concept behind the work “Sternhelma” – a nostalgic board game inspired by the original Chinese checkers that combines digital fabrication with craftsmanship. Contemporary artisan PAK will share how he and his team created this beautiful piece by shining the spotlight on its intricate craftsmanship details, such as its wax rope details, wood finishing and patina of each game piece.\n\nDuring the talk, PAK will share some experiences that the duo learned while creating “Sternhelma” – invaluable information for anyone looking to break into digital fabrication and craftsmanship!\n\n**About PAK – Noah & Grey**\n\nFounded in early 2018, Noah & Grey was started by KC and PAK, a father-and-son team who are passionate about the beauty of analogue technology. Noah & Grey is on a mission to elevate mood, experience and well-being through the intelligent and functional use of technology. The studio’s work is guided by the rich narratives of the past and driven by the bold inventions of the future, with the ultimate aim of finding beauty in function, form, and experience.",
+      "event_description_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/",
+      "registration_link": "https://buy.stripe.com/eVa7sL6nc1qm6xaaEG",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/artisans-talk-craftsmanship-x-digital-fabrication-the-making-of-sternhelma-chinese-checkers/"
+    },
+    {
+      "event_id": "craft-discovery-workshop-hand-carved-mahjong-experience",
+      "event_id_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "event_title": "Craft Discovery Workshop – Hand-Carved Mahjong Experience",
+      "event_title_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "event_date": "25 Feb 2023 (Sat)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "event_time": "3:00 PM - 5:00 PM",
+      "event_time_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_location_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "event_category": "Mahjong",
+      "event_category_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "event_language_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "instructor_bio": "#### **Master of Mahjong Carving**\n\nMaster Ricky Cheung started his apprenticeship with his father at Fuk Hing Lung Mahjong Factory in Kowloon City at the age of 13. As the second-generation owner of the factory, he had over 50 years of experience managing the factory, spanning from 1963 to 2009. From purchasing raw materials from Germany and the local market to manufacturing processes like sawing, polishing, carving, coloring, scraping, packaging and delivery, the factory provided a one-stop service to its customers. It was one of the largest mahjong tile factories in Hong Kong until its closure in 2009.\n\nMaster Cheung continued to work until his retirement in 2018. As he does not wish to witness the disappearance of this traditional craftsmanship with the retirement of the previous generation of masters, he continues to collaborate with his daughter, re-presenting hand-carved mahjong in a creative way.\n\n#### **Contemporary Artisan**\n\nBrought up in her father, Master Ricky Cheung’s mahjong factory, Karen Aruba is now an illustrator, dedicating most of her time to promote the art of mahjong carving. She established the brand Karen Aruba Art to encourage younger generations to understand the value of this precious craftsmanship and to learn the history and culture of Hong Kong through it. In 2020, Karen and her father founded The Art of Mahjong Craft Studio, aspiring to draw attention on traditional hand-carved mahjong and its sustainable development. Karen has curated several exhibitions related to the art of mahjong that have received extensive coverage in the local and overseas media, leading Hong Kong mahjong design and craftsmanship to gain attention in the international arena.",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "workshop_price": "HKD 650",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "event_description": "Mahjong is not just a game in Hong Kong, but is deeply rooted in the city’s culture. For many people, mahjong is a way to socialize and connect with friends and families.\n\nMaster of Mahjong Carving Ricky Cheung and contemporary artisan Karen Aruba will lead participants to review the mahjong-making industry in Hong Kong through illustrations, while exploring the differences in production between the contemporary design and traditional hand-carved mahjong.\n\nMaster Cheung will demonstrate the making process of hand-carving mahjong, while the participants will have the opportunity to experience the use of hand-carved mahjong tools and painting mahjong tiles with gold leaves, exploring the skillful techniques of carving and coloring.\n\nEach participant can bring home their handmade hand-carved mahjong with a gift box.",
+      "event_description_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "registration_link": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-hand-carved-mahjong-experience/"
+    },
+    {
+      "event_id": "craft-discovery-workshop-bamboo-steamer-making-experience",
+      "event_id_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "event_title": "Craft Discovery Workshop – Bamboo Steamer Making Experience",
+      "event_title_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "event_date": "18 Feb 2023 (Sat)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "event_time": "3:00 - 5:30 PM",
+      "event_time_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "event_location": "11 Peel Street, Central",
+      "event_location_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "event_category": "Bamboo",
+      "event_category_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "event_language_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "instructor_bio": "#### **Contemporary Artisan**\n\nInkgo Lam graduated from the department of Fine Arts at the Chinese University of Hong Kong in 2014. She is an apprentice of the renowned Hong Kong bamboo steamer Master Lui Ming and aspires to create contemporary bamboo crafts with traditional techniques.\n\nIn 2019, Inkgo met Master Lui Ming through The Jockey Club ICH+ Innovative Heritage Education Programme. In 2021, Inkgo’s bamboo artworks were exhibited at Art Basel Hong Kong and in 2022, her works were featured in Hong Kong, Japan, and Canada, including the exhibition “Beyond Borders: Traces of Hong Kong Stories”.\n\nSince childhood, Inkgo has admired the perseverance of traditional craftsmen and has been fascinated by the attitude of “focusing on one thing for a lifetime”. She hopes to continue the traditions of heritage crafts in Hong Kong and transform bamboo into the language of art, bringing the aesthetics of ancient Chinese art to the contemporary stage.",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "workshop_price": "HKD 320",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "event_description": "Originating from Southern China, the cleverly designed bamboo steamers are composed of an open-weave bottom and a domed lid. The colander bottom allows steam to travel through, while the tightly-woven lid prevents the steam from escaping, and its domed shape accommodates the steam to circulate evenly. Given the permeability of bamboo, the vapor from the steam is retained without causing any condensation, which would dampen the food, while locking in the flavor and keeping its moisture and tenderness.\n\nThis workshop offers the participants hands-on experience in crafting a bamboo steamer and experiencing different weaving techniques. Contemporary artisan Inkgo Lam will lead participants through the six essential steps of making a traditional bamboo steamer from scratch.\n\nNext, participants will learn the various bamboo weaving techniques such as hexagonal weave, twill weave and cross weave. Using naturally dyed bamboo strips, participants can bring their creative ideas to life and weave their own patterns.\n\nEach participant can bring home their handmade bamboo steamer lid along with a bamboo steamer base as a gift from us, completing a set of bamboo steamer. A freshly steamed Cantonese sponge cake will be prepared for each participant to wrap up this fruitful experience.",
+      "event_description_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "registration_link": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/craft-discovery-workshop-bamboo-steamer-making-experience/"
+    },
+    {
+      "event_id": "four-seasons-enchantment-engraved-lcw2022",
+      "event_id_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "event_title": "Four Seasons: Enchantment Engraved \\| LCW2022",
+      "event_title_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "event_date": "10 May 2022 (Tue)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "event_time": "8:00 PM - 8:45 PM",
+      "event_time_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "event_location": "",
+      "event_location_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "event_category": "Metal",
+      "event_category_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "event_language": "English",
+      "event_language_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "instructor_bio": "### **About the Artisan**\n\n**Peter Ng**\n\n**Graver HK** **Hammer and Chisel Engraving Craftsman**\n\nMaster Peter Ng started learning chiseling techniques from Master Ng Tin Duk at the age of twelve. After completing his studies, he became a full-time craftsman specializing in engraving. With hard work, enthusiasm and more than half a century of experience, he co-founded the brand Graver HK with his son Jan Ng in 2012. Together, the father-son partnership continues to develop the craft of metal engraving by incorporating chiseling into a variety of contemporary works.",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "event_description": "What is the charm behind metal craftsmanship which Master Peter Ng has persisted in creating for decades?\n\nMaster Ng’s virtual demonstration – Four Seasons: Enchantment Engraved is to be presented during the London Craft Week! With Master Ng’s comprehensive demonstration, audiences will learn more about the unique history of Hong Kong’s metalwork and the story behind his work “Four Seasons” in collaboration with Ping Kee Copperware.\n\nHis craftsmanship not only represents the spirit of perseverance , but also exemplifies Hong Kong’s continuous pursuit of creativity!",
+      "event_description_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "registration_link": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/four-seasons-enchantment-engraved-lcw2022/"
+    },
+    {
+      "event_id": "craft-discovery-metal-sculpting",
+      "event_id_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "event_title": "Craft Discovery – Metal Sculpting",
+      "event_title_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "event_date": "4 Sep 2021 (Sat)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "event_time": "2:00 - 4:30 PM",
+      "event_time_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "event_location": "11 Peel Street, Central",
+      "event_location_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "event_category": "Metal",
+      "event_category_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "event_language_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "workshop_price": "HKD 450",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "event_description": "Craft Discovery – Metal Sculpting offers the participants a preliminary investigation and understanding of the process and theories behind the making of a sculpture.\n\nThe exploration shares similar concepts with the metal sculpture-making process, which serves the cardboard and foam boards as the raw material. The objective of this workshop is to introduce and initiate a dialogue in the relationship between form, space, scale and the maker through maquette making.\n\nParticipants are to develop multiple forms and shape to their desire using methods such as cutting and tearing, undergoing the practice resembling that of craftsmen in the creation of metal sculpture. By the end of the workshop, participants will have to combine the patterns to create a sculptural object influenced by ideas and concepts presented during the workshop.\n\n**Contemporary Artisan** Anton Poon is a Hong Kong-based artisan whose works predominantly in corten steel. Majoring in Sculpture, Poon graduated from the Australian National University School of Art and Design (ANU SoAD) in 2016 with a Masters of Visual Arts (Advanced) with honors. He was employed as Sessional Lecturer and Technical officer at the ANU SoAD sharing his knowledge of visual arts and sculpture-making with students and visiting artists. For the past four years, he worked with landscape architects, professional artists and development companies continuing in expanding and contributing to society both physically and conceptually.",
+      "event_description_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/",
+      "registration_link": "https://www.craftsonpeel.com/product/craft-discovery-metal-sculpting/",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/craft-discovery-metal-sculpting/"
+    },
+    {
+      "event_id": "craft-x-design-material-discovery-workshop-galvanized-iron-2",
+      "event_id_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "event_title": "Craft x Design: Material Discovery Workshop – Galvanized Iron",
+      "event_title_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "event_date": "21 Aug 2021 (Sat)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "event_time": "1:00 - 4:30pm",
+      "event_time_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "event_location": "11 Peel Street, Central",
+      "event_location_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "event_category": "Metal",
+      "event_category_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "event_language_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "workshop_price": "HKD 680",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "event_description": "Galvanized iron is an alloy of iron coated with zinc, which is soft and durable. It is the most affordable metal amongst all metals. Galvanized iron can be flattened and folded tightly to form a joint, not requiring any glue or nail. In this workshop, the participant will discover and explore the natures of galvanized iron. There are seven traditional galvanized iron craft techniques – drawing, marking, cutting, wrapping, folding, flattening, and buckling. Through hands-on experience, the participant will learn three basic skills, cutting, flattening and buckling. With the concept of design thinking, you will create a simple structure like sculpture, geometric plate, or a buckle box.\n\n**Traditional Craftsman**\n\nMaster Michael Yu is a Metalsmith specialized in galvanized iron and has been engaged in the galvanized iron industry for over thirty years, mainly making air conditioning ducts for a living in the beginning. Starting in 2010, he began exploring the use of galvanized iron to create unique crafts and daily necessities. In his spare time, he co-organizes workshops with different organizations, mainly teaching the making of traditional mailboxes to promote and revitalize the craft of galvanized iron.\n\n**Contemporary Artisan**\n\nGamzar is a multilingual contemporary artisan and product designer passionate about cultures and traditional handicraft, who pursued his bachelor’s degree in Shanghai and his master’s degree in Paris. The bamboo design work he did was awarded as the first prize in a bamboo design competition held in Yong An, Fujian, China and was selected and presented in the July Edition of Architecture Digest(China version). After working with crafts for a year and a half, he was awarded the French National Scholarship and enrolled in the École Nationale Supérieure d’Arts et Métiers in Paris for postgraduate study. In 2020, he started exploring galvanized iron with Master Michael Yu.",
+      "event_description_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/",
+      "registration_link": "https://www.craftsonpeel.com/product/craft-x-design-material-discovery-workshop-galvanized-iron/",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/craft-x-design-material-discovery-workshop-galvanized-iron-2/"
+    },
+    {
+      "event_id": "metal-casting-discovery-sculpting-workshop",
+      "event_id_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "event_title": "Metal Casting Discovery – Sculpting Workshop",
+      "event_title_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "event_date": "14 Aug 2021 (Sat)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "event_time": "2:00 - 5:00pm",
+      "event_time_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "event_location": "11 Peel Street, Central",
+      "event_location_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "event_category": "Metal",
+      "event_category_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "event_language_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "workshop_price": "HKD 680",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "event_description": "Metal casting involves making a mold and then pouring molten metal into it. The craftsman produces a prototype by clay, wax, or plaster, which will be used to create a mold to cast from, allowing subsequent reproduction. The making process requires detailed observation of an object from multi-perspectives to transform the visuals into a three-dimensional form.\n\nIn this experiential workshop led by sculptor Fanson Lam, participants will learn the basic techniques through the hands-on practice of sculpting a simple human body structure. Join us on August 14 to have a glimpse of how craftwork can be cast from scratch with Fanson’s sharing!",
+      "event_description_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/",
+      "registration_link": "https://www.craftsonpeel.com/product/metal-casting-discovery-sculpting-workshop/",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/metal-casting-discovery-sculpting-workshop/"
+    },
+    {
+      "event_id": "crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2",
+      "event_id_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "event_title": "Crafts on Peel x Passion Coffee: Coffee Tasting Workshop",
+      "event_title_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "event_date": "31 Jul 2021 (Sat)",
+      "event_date_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "event_time": "11:00-1:00pm",
+      "event_time_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "event_location": "11 Peel Street, Central",
+      "event_location_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "event_category": "Coffee",
+      "event_category_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "event_language_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "instructor_name_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "instructor_bio_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "workshop_price": "HKD 420",
+      "workshop_price_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "capacity_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "event_description": "Crafts on Peel x Passion Coffee: Coffee Tasting Workshop will be using coffee flavor maps as teaching tools. Together with hand drip brewing coffee in different flavors, this workshop could train participants’ sense of smell and raise their acknowledgment in scent.\n\nThe Asia Specialty Coffee Association Trainer and founder of Passion Coffee, Raul Lee will use coffee pots made by masters from Hong Kong Ping Kee Copperware and Japanese craftsman Takeshi Fujii to brew two flavours of coffee. After his demonstration, participants could also brew their own coffee to further understand hand drip coffee brewing flavours and ways to taste high quality coffee.\n\nCancellation policy：\n\n- We only accept cancellation by phone within Crafts on Peel office hours.\n- 75% of the payment will be refunded for the cancellation before 48 hours of the class.\n- Any cancellation within 48 hours of a class will not be offered a refund.\n- Participants reserve the rights to transfer the place to others.\n- The refund will be completed within 21 working days",
+      "event_description_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/",
+      "registration_link": "https://www.craftsonpeel.com/product/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop/",
+      "registration_link_citation": "https://www.craftsonpeel.com/event/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-2/"
+    },
+    {
+      "event_title": "Craft x Design: Material Discovery Workshop – Galvanized Iron",
+      "event_date": "3 Jul 2021 (Sat)",
+      "event_time": "1:30 - 5:00pm",
+      "event_location": "11 Peel Street, Central",
+      "event_category": "Metal",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Michael Yu",
+      "instructor_bio": "\"Master Michael Yu is a Metalsmith specialized in galvanized iron and has been engaged in the galvanized iron industry for over thirty years, mainly making air conditioning ducts for a living in the beginning. Starting in 2010, he began exploring the use of galvanized iron to create unique crafts and daily necessities. In his spare time, he co-organizes workshops with different organizations, mainly teaching the making of traditional mailboxes to promote and revitalize the craft of galvanized iron.\"",
+      "workshop_price": "HKD 680",
+      "event_description": "\"Galvanized iron is an alloy of iron coated with zinc, which is soft and durable. It is the most affordable metal amongst all metals. Galvanized iron can be flattened and folded tightly to form a joint, not requiring any glue or nail. In this workshop, the participant will discover and explore the natures of galvanized iron. There are seven traditional galvanized iron craft techniques – drawing, marking, cutting, wrapping, folding, flattening, and buckling. Through hands-on experience, the participant will learn three basic skills, cutting, flattening and buckling. With the concept of design thinking, you will create a simple structure like sculpture, geometric plate, or a buckle box.\"",
+      "registration_link": "https://www.craftsonpeel.com/product/craft-x-design-material-discovery-workshop-galvanized-iron/",
+      "event_images": [
+        {
+          "value": "https://www.craftsonpeel.com/wp-content/uploads/2025/12/Michael-Yu.jpg"
+        }
+      ]
+    },
+    {
+      "event_title": "The Pursuit of Elegance: Ritual of Song Dynasty – Tea Appreciation",
+      "event_date": "19 Jun 2021 (Sat)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Tea",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 280",
+      "event_description": "\"Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.\n\nWhen presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.\n\nThis weekend, **Oriental Beauty Oolong** and **Aged Liubao Dark Tea** will be served.\"",
+      "registration_link": "https://www.craftsonpeel.com/product/the-pursuit-of-elegance-tea-appreciation/"
+    },
+    {
+      "event_title": "Crafts on Peel x Passion Coffee: Coffee Tasting Workshop",
+      "event_date": "29 May 2021 (Sat)",
+      "event_time": "12:00-1:30pm",
+      "event_location": "11 Peel Street, Central",
+      "event_category": "Coffee",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 420",
+      "event_description": "\"Crafts on Peel x Passion Coffee: Coffee Tasting Workshop will be using coffee flavor maps as teaching tools. Together with hand drip brewing coffee in different flavors, this workshop could train participants’ sense of smell and raise their acknowledgment in scent.\n\nThe Asia Specialty Coffee Association Trainer and founder of Passion Coffee, Raul Lee will use coffee pots made by masters from Hong Kong Ping Kee Copperware and Japanese craftsman Takeshi Fujii to brew two flavours of coffee. After his demonstration, participants could also brew their own coffee to further understand hand drip coffee brewing flavours and ways to taste high quality coffee.\n\nCancellation policy：\n\n- We only accept cancellation by phone within Crafts on Peel office hours.\n- 75% of the payment will be refunded for the cancellation before 48 hours of the class.\n- Any cancellation within 48 hours of a class will not be offered a refund.\n- Participants reserve the rights to transfer the place to others.\n- The refund will be completed within 21 working days\"",
+      "registration_link": "https://www.craftsonpeel.com/product/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop/"
+    },
+    {
+      "event_title": "Crafts on Peel x Passion Coffee: Coffee Tasting Workshop – Afternoon Section",
+      "event_date": "29 May 2021 (Sat)",
+      "event_time": "2:30-4:00pm",
+      "event_location": "11 Peel Street, Central",
+      "event_category": "Coffee",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 420",
+      "event_description": "\"Crafts on Peel x Passion Coffee: Coffee Tasting Workshop will be using coffee flavor maps as teaching tools. Together with hand drip brewing coffee in different flavors, this workshop could train participants’ sense of smell and raise their acknowledgment in scent.\n\nThe Asia Specialty Coffee Association Trainer and founder of Passion Coffee, Raul Lee will use coffee pots made by masters from Hong Kong Ping Kee Copperware and Japanese craftsman Takeshi Fujii to brew two flavours of coffee. After his demonstration, participants could also brew their own coffee to further understand hand drip coffee brewing flavours and ways to taste high quality coffee.\n\nCancellation policy：\n\n- We only accept cancellation by phone within Crafts on Peel office hours.\n- 75% of the payment will be refunded for the cancellation before 48 hours of the class.\n- Any cancellation within 48 hours of a class will not be offered a refund.\n- Participants reserve the rights to transfer the place to others.\n- The refund will be completed within 21 working days\"",
+      "registration_link": "https://www.craftsonpeel.com/product/crafts-on-peel-x-passion-coffee-coffee-tasting-workshop-afternoon-section/"
+    },
+    {
+      "event_title": "Crafts on Peel x Coxper: Craft-ligraphy Workshop",
+      "event_date": "22 May 2021 (Sat)",
+      "event_time": "12:30-5:00pm",
+      "event_location": "11 Peel Street, Central",
+      "event_category": "Calligraphy",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 680",
+      "event_description": "\"Fret saw is a tool frequently used in metalworking. Apart from using it as a cutting tool, it is also used to “hollow out”, a metalworking technique, to create a work.\n\n**Craft-ligraphy Workshop** is hosted by Nathan Wong and Hazel Lee, who will teach and assist in creating your own word in brass as medium. This workshop is inspired by the exhibiting item: “Craft-ligraphy” in which this artwork was created with the same handicraft technique.\n\nParticipants will first learn the basics of using a fret saw, then engrave the Chinese word “jin(meaning gold)” written by local calligrapher, Wah Gor.\n\nBoth contemporary craftsmen cordially invite you to take part in the continuation of the installation “Craft-ligraphy”, to feel the essence of handicraft through fret saw cutting Wah Gor’s calligraphy.\n\nPeople who are interested in metalworking, even not having any experience, are welcomed to join. By the end of the workshop, participants will have tailor-made their own brass word pin.\n\nCancellation policy：\n\n- We only accept cancellation by phone within Crafts on Peel office hours.\n- 75% of the payment will be refunded for the cancellation before 48 hours of the class.\n- Any cancellation within 48 hours of a class will not be offered a refund.\n- Participants reserve the right to transfer the place to others.\n- The refund will be completed within 21 working days\"",
+      "registration_link": "https://www.craftsonpeel.com/product/crafts-on-peel-x-coxper-craft-ligraphy-workshop/"
+    },
+    {
+      "event_title": "The Pursuit of Elegance: Tea Appreciation",
+      "event_date": "15 May 2021 (Sat)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Tea",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 280",
+      "event_description": "\"Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.\n\nWhen presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.\n\nThis weekend, **Pre-qingming Longjing** and **Yunnan Fengqing Aged Tree Dianhong Black Tea** will be served.\"",
+      "registration_link": "https://www.craftsonpeel.com/product/may-15-the-pursuit-of-elegance-tea-appreciation/"
+    },
+    {
+      "event_title": "Crafts on Peel x Sunsmith: Raising and Sinking – Pure Tin Sake Cup Workshop",
+      "event_date": "8 May 2021 (Sat)",
+      "event_time": "12:30 - 5:30pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Metal",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 2680",
+      "event_description": "\"Passed down through the generations, raising is a form of forging where a flat sheet of metal is hammered repetitively. When force is applied the metal contracts and extends, which eventually rises to form the desired utensil. The traditional craft starts with a flat sheet of metal, without soldering, the technique calls for tremendous patience and an experienced mind to delicately shape. At this stage, the vessel has already metamorphosed into craft.\n\nPure tin is a precious metal that does not oxidize, used in traditional Asian cultures to purify water. In Japan, tin wares accentuates the smooth richness of spirits, oftentimes used to enjoy premium sake. Japanese tin wares are as diverse as it is exquisite. “Raising and Sinking – Pure Tin Sake Cup Workshop” invites you to explore this ancient metalworking technique and sample exceptional memorable spirits.\n\n**“Savor, Appreciate, Explore, Make”**\n\nSavor: Taste every drop of flavor sealed within the spirit, amplified in depth and sweetness by the accompanying tin ware.\n\nAppreciate:  Learn to identify each mark. Come to appreciate each imprint of the hammer. Feel wholeheartedly the beauty of craft.\n\nExplore: Reflect on the value of craft and explore the process of making from beginning to end. Reduce the complex into its simplest form and experience life’s true form.\n\nMake: Experience firsthand the making process and the boundless joy hidden within craft.\n\n_Note:_\n\n_Due to the constant noise produced from hammering, a considerable amount of noise would be produced. The workshop would provide earplugs and earmuffs for use. If excessive noise causes you tremendous nausea and discomfort, this workshop may not be suitable for you._\n\nCancellation policy：\n\n- We only accept cancellation by phone within Crafts on Peel office hours.\n- 75% of the payment will be refunded for the cancellation before 48 hours of the class.\n- Any cancellation within 48 hours of a class will not be offered a refund.\n- Participants reserve the rights to transfer the place to others.\n- The refund will be completed within 21 working days\"",
+      "registration_link": "https://www.craftsonpeel.com/events/",
+      "event_images": [
+        {
+          "value": "https://www.craftsonpeel.com/wp-content/uploads/2021/03/5-Yve-Chan-1.jpg"
+        }
+      ]
+    },
+    {
+      "event_title": "Crafts on Peel x Passion Coffee: Hand Drip Coffee Brewing Beginner’s Workshop  – Evening Session",
+      "event_date": "17 Apr 2021 (Sat)",
+      "event_time": "3 - 5pm",
+      "event_location": "11 Peel Street, Central",
+      "event_category": "Coffee",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 420",
+      "event_description": "\"Connecting the ware with people is what craft is all about. Brew your coffee with different coffee pots handcrafted by Ping Kee Copperware from Hong Kong and Takeshi Fujii from Japan.\n\nThis workshop offers a hands-onexperience to learn about the theories and techniques of hand drip coffee brewing, including the origin of the beans and their roasting methods. The Asia Specialty Coffee Association Trainer and founder of passion Coffee, Raul Lee will demonstrate three different expressive flavors of coffee with various brewing techniques and styles of coffee pots.\n\nCancellation policy：\n\n- We only accept cancellation by phone within Crafts on Peel office hours.\n- 75% of the payment will be refunded for the cancellation before 48 hours of the class.\n- Any cancellation within 48 hours of a class will not be offered a refund.\n- Participants reserve the rights to transfer the place to others.\n- The refund will be completed within 21 working days\"",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Crafts on Peel x Passion Coffee: Hand Drip Coffee Brewing Beginner’s Workshop",
+      "event_date": "17 Apr 2021 (Sat)",
+      "event_time": "12 - 2pm",
+      "event_location": "11 Peel Street, Central",
+      "event_category": "Coffee",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 420",
+      "event_description": "\"Connecting the ware with people is what craft is all about. Brew your coffee with different coffee pots handcrafted by Ping Kee Copperware from Hong Kong and Takeshi Fujii from Japan.\n\nThis workshop offers a hands-onexperience to learn about the theories and techniques of hand drip coffee brewing, including the origin of the beans and their roasting methods. The Asia Specialty Coffee Association Trainer and founder of passion Coffee, Raul Lee will demonstrate three different expressive flavors of coffee with various brewing techniques and styles of coffee pots.\n\nCancellation policy：\n\n- We only accept cancellation by phone within Crafts on Peel office hours.\n- 75% of the payment will be refunded for the cancellation before 48 hours of the class.\n- Any cancellation within 48 hours of a class will not be offered a refund.\n- Participants reserve the rights to transfer the place to others.\n- The refund will be completed within 21 working days\"",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Material Discovery Workshop – Hammer and Chisel Engraving",
+      "event_date": "10 Apr 2021 (Sat)",
+      "event_time": "2:00 - 5:00pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Metal",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_bio": "\"Master Peter Ng started learning chiseling techniques from Master Ng Tin Duk at the age of twelve. After completing his studies, he became a full-time craftsman specializing in engraving. With hard work, enthusiasm and more than half a century of experience, he co-founded the brand – Graver HK  with his son Jan Ng in 2012. Together, the father-son partnership continues to develop the craft of metal engraving by incorporating chiseling into various contemporary works.\n\nCancellation policy：\n\n- We only accept cancellation by phone within Crafts on Peel office hours.\n- 75% of the payment will be refunded for the cancellation before 48 hours of the class.\n- Any cancellation within 48 hours of a class will not be offered a refund.\n- Participants reserve the rights to transfer the place to others.\n- The refund will be completed within 21 working days.\"",
+      "workshop_price": "HKD 680",
+      "event_description": "\"In the realm of the exhibition “Creations Enlivened: Metal,” we are proud to present the Material Discovery Workshop – Hammering and Chisel Engraving. The workshop allows you to experience the possibilities of traditional craft and metalwork.\n\nThe metal jewelry industry is based on a specialized division of labor system as the production process, hammer and chisel engraving is one of them. Craftsman adeptly uses a wide range of hammers and chisels with different dimensions and angles to carve a myriad of patterns onto metal objects.\n\nThe participant will learn about the foundation and application of hammer and chisel engraving with the practice of craving your simple yet unique pattern on the cardholder.\"",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Dec 5 – Craft x Design: Material Discovery Workshop – Bamboo",
+      "event_date": "5 Dec 2020 (Sat)",
+      "event_time": "2:00 - 5:30PM",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Gamzar",
+      "instructor_bio": "Gamzar is a multilingual contemporary artisan and product designer passionate for cultures and traditional handicraft, who pursued his bachelor degree in Shanghai and the master degree in Paris. The bamboo design work he did was awarded as the first prize in a bamboo design competition held in Yong An, Fujian, China and was selected and presented in the July Edition of Architecture Digest(China version).",
+      "workshop_price": "HKD 680",
+      "event_description": "By learning how to bend the bamboo sticks, participants are encouraged to discover a new language and culture of this traditional craft through this manual practice, and reinterpret the different possibilities of bamboo. In the workshop, you will experience from splitting the bamboo to handling the materials. With the help of design thinking and scientific thinking, we will relearn shaping with bamboo, weave the surface(patch) with bamboo, and discover the folk wisdom hidden in bamboo crafts.",
+      "registration_link": "https://www.craftsonpeel.com/events/",
+      "event_images": [
+        {
+          "value": "https://www.craftsonpeel.com/wp-content/uploads/2021/03/4-Gamzar.jpg"
+        }
+      ]
+    },
+    {
+      "event_title": "Dec 18 – THE PURSUIT OF ELEGANCE: RITUALS OF SONG DYNASTY – TEA APPRECIATION",
+      "event_date": "18 Dec 2020 (Fri)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Tea",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Our certified tea master",
+      "instructor_bio": "The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.",
+      "workshop_price": "HKD 280",
+      "event_description": "Dec 18 (Fri): Raw Pu’er Green Tea in Bamboo Tube x Aged Liubao Dark Tea To celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration. When presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Dec 12 – THE PURSUIT OF ELEGANCE: RITUALS OF SONG DYNASTY – TEA APPRECIATION",
+      "event_date": "12 Dec 2020 (Sat)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Tea",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Our certified tea master",
+      "instructor_bio": "The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.",
+      "workshop_price": "HKD 280",
+      "event_description": "Dec 12 (Sat): Phoenix Dancong Dark Tea x  Anhui Lu’an Dark Tea To celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration. When presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Dec 4 – THE PURSUIT OF ELEGANCE: RITUALS OF SONG DYNASTY – TEA APPRECIATION",
+      "event_date": "4 Dec 2020 (Fri)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Tea",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Our certified tea master",
+      "instructor_bio": "The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.",
+      "workshop_price": "HKD 280",
+      "event_description": "Dec 4 (Fri): Aged White Tea x Ancient Tree Ripe Pu’er Dark Tea To celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration. When presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Nov 28 – Crafts on Peel x Waa Faa Cii: Song Dynasty Flower Arrangement in Bamboo Cylinder Vase",
+      "event_date": "28 Nov 2020 (Sat)",
+      "event_time": "1:30 - 5:30pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Ms Chu",
+      "instructor_bio": "Florist Ms Chu is a Chinese florist, Mami Flower Design School fellow and associate lecturer. She used to study contemporary art in Spain and Chinese Floristry in Taiwan. Chu strives to cooperate blooms and wood materials with vases to build “the ideal life” within many urbanites’ hearts. In 2019, Chu founded Waa Faa Cii, aspiring to promote Chinese Floral Art via the engagement with flowers between fellows.",
+      "workshop_price": "HKD 880",
+      "event_description": "In the realm of IMAGINE THE ‘IM’POSSIBILITIES: BAMBOO, Crafts on Peel partners with Waa Faa Cii to present Song Dynasty Flower Arrangement in Bamboo Cylinder Vase for you to enjoy the elegance of cultural leisure. There are six basic containers in Chinese floral arrangement – tray, bowl, bottle, vat, basket and cylinder. The florist – Ms Chu will elaborate the concept of Chinese flower arrangement and stories about bamboo cylinders in the workshop. Participants will learn to practice withtechniques ofKenzan(metal flower frog) andSa(natural flower frog made with twig) in an authentic way. Chinese flower arrangement is a traditional craft and has had a long history of 1,500 years. The history of cylinder vases could be traced back from Emperor Li Yu’s Five Dynasties period; it was widespread in the Northern Song Dynasty. The contour of Chinese floristry depends on the conformation of natural scenery and plants, and is a minute model of nature. In lieu of simply employing graceful, lively elements, blossoms and wood materials, other involved bodies may include rocks and withered trees. It is about the art of expansion in space, the amplification of the law of nature, and the alignment of structures. Arranging flowers is a direct and instant means of realizing the art of living. Through the workshop, participants are brought back to the sense of belonging to nature and a gentle touch of subtle delicacy. The admission fee has included the materials, a vase and presentation notes.",
+      "registration_link": "https://www.craftsonpeel.com/product/20201118-flowerarrangment-registration-en/"
+    },
+    {
+      "event_title": "Nov 14 – Craft x Design: Material Discovery Workshop – Bamboo",
+      "event_date": "14 Nov 2020 (Sat)",
+      "event_time": "2:00 - 5:30PM",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Gamzar",
+      "instructor_bio": "Gamzar is a multilingual contemporary artisan and product designer passionate for cultures and traditional handicraft, who pursued his bachelor degree in Shanghai and the master degree in Paris. The bamboo design work he did was awarded as the first prize in a bamboo design competition held in Yong An, Fujian, China and was selected and presented in the July Edition of Architecture Digest(China version).",
+      "workshop_price": "HKD 680",
+      "event_description": "By learning how to bend the bamboo sticks, participants are encouraged to discover a new language and culture of this traditional craft through this manual practice, and reinterpret the different possibilities of bamboo. In the workshop, you will experience from splitting the bamboo to handling the materials. With the help of design thinking and scientific thinking, we will relearn shaping with bamboo, weave the surface(patch) with bamboo, and discover the folk wisdom hidden in bamboo crafts.",
+      "registration_link": "https://www.craftsonpeel.com/product/nov14-craft-x-design-material-discovery-workshop-bamboo/",
+      "event_images": [
+        {
+          "value": "https://www.craftsonpeel.com/wp-content/uploads/2021/03/4-Gamzar.jpg"
+        }
+      ]
+    },
+    {
+      "event_title": "Nov 28 – THE PURSUIT OF ELEGANCE: RITUALS OF SONG DYNASTY – TEA APPRECIATION",
+      "event_date": "28 Nov 2020 (Sat)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Tea",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Our certified tea master",
+      "instructor_bio": "The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.",
+      "workshop_price": "HKD 280",
+      "event_description": "Nov 28 (Sat): Oriental Beauty Oolong Tea x Yunnan Fengqing Aged Tree Dianhong Black Tea To celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration. When presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/product/nov28-the-pursuit-of-elegance-rituals-of-song-dynasty-tea-appreciation/"
+    },
+    {
+      "event_title": "Nov 21 – THE PURSUIT OF ELEGANCE: RITUALS OF SONG DYNASTY – TEA APPRECIATION",
+      "event_date": "21 Nov 2020 (Sat)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Tea",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Our certified tea master",
+      "instructor_bio": "The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.",
+      "workshop_price": "HKD 280",
+      "event_description": "Nov 21 (Sat): Raw Pu’er Green Tea in Bamboo Tube x Yunnan Fengqing Aged Tree Dianhong Black Tea To celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration. When presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/product/nov-21-the-pursuit-of-elegance-rituals-of-song-dynasty-tea-appreciation/"
+    },
+    {
+      "event_title": "Nov 13 – THE PURSUIT OF ELEGANCE: RITUALS OF SONG DYNASTY – TEA APPRECIATION",
+      "event_date": "13 Nov 2020 (Fri)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Tea",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Our certified tea master",
+      "instructor_bio": "The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.",
+      "workshop_price": "HKD 280",
+      "event_description": "Nov 13 (Fri): Anhui Yellow Tea xLuan Oolong Tea To celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration. When presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/product/nov-13-the-pursuit-of-elegance-rituals-of-song-dynasty-tea-appreciation/"
+    },
+    {
+      "event_title": "Nov 7 – The Pursuit of Elegance: Rituals of Song Dynasty – Tea appreciation",
+      "event_date": "7 Nov 2020 (Sat)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Tea",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Our certified tea master",
+      "instructor_bio": "The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.",
+      "workshop_price": "HKD 280",
+      "event_description": "Nov 7 (Sat): Pre-qingming Lungjing Green Tea xAncient Tree Ripe Pu’er Dark Tea To celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration. When presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/product/nov-7-the-pursuit-of-elegance-rituals-of-song-dynasty-tea-appreciation/"
+    },
+    {
+      "event_title": "Crafts on Peel X okapi studio: Handmade Bamboo and Backflow Incense Workshop",
+      "event_date": "31 Oct 2020 (Sat)",
+      "event_time": "2:00 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "Max Cheng",
+      "instructor_bio": "Max Cheng is a graduate from Hong Kong Baptist University, majoring in the visual arts.",
+      "workshop_price": "HKD 580",
+      "event_description": "In the realm of IMAGINE THE ‘IM’POSSIBILITIES: BAMBOO, broad visitors are presented with the elegance of cultural leisure events through tea ceremony, flower arrangement and incense appreciation. Crafts on Peel and okapi Studio are holding a handmade bamboo incense and backflow incense workshop. Bamboo powder provided by one of our exhibited artisans, Ting For Chun, will be involved in the making of incense cones. Our incense craftsman – Max Cheng will introduce participants to types of incense making tools, molds, ingredients and most importantly, resinous fragrances, varying from Frankincense to Benzoin, Myrrh and more.\n\nParticipants may bring their own raw material or use those prepared by our instructor: woody ingredients including Cinnamon, Hinoki, Cypress, Sandalwood; or primal botanical materials like White Sage, Mugwort. Participants will be able to create their own fragrances, each unique to themselves by crafting incense cones and a range of handmade and backflow incenses in different shapes.\n\nMax Cheng is a graduate from Hong Kong Baptist University, majoring in the visual arts. He established okapi studio after graduation and traveled to China, Japan, Nepal and India to learn about different types of incense. Through organizing workshops and tours, Max aims to promote the many faces of “incense culture” and the idea of “closing the loop”, making incense from natural ingredients and using incense ash as fertiliser. okapi studio encourages the public to get close to the nature and be expressive with a pair of hands.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Craft x Design: Material Discovery Workshop – Bamboo",
+      "event_date": "7 Nov 2020 (Sat)",
+      "event_time": "2:00 - 5:30PM",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "instructor_name": "- 1",
+      "instructor_bio": "Gamzar is a multilingual contemporary artisan and product designer passionate for cultures and traditional handicraft, who pursued his bachelor degree in Shanghai and the master degree in Paris.",
+      "workshop_price": "HKD 680",
+      "event_description": "By learning how to bend the bamboo sticks, participants are encouraged to discover a new language and culture of this traditional craft through this manual practice, and reinterpret the different possibilities of bamboo. In the workshop, you will experience from splitting the bamboo to handling the materials. With the help of design thinking and scientific thinking, we will relearn shaping with bamboo, weave the surface(patch) with bamboo, and discover the folk wisdom hidden in bamboo crafts.\n\nContemporary Artisan\n\nGamzar is a multilingual contemporary artisan and product designer passionate for cultures and traditional handicraft, who pursued his bachelor degree in Shanghai and the master degree in Paris. The bamboo design work he did was awarded as the first prize in a bamboo design competition held in Yong An, Fujian, China and was selected and presented in the July Edition of Architecture Digest(China version).",
+      "registration_link": "https://www.craftsonpeel.com/product/craft-x-design-material-discovery-workshop-bamboo/",
+      "event_images": [
+        {
+          "value": "https://www.craftsonpeel.com/wp-content/uploads/2021/03/4-Gamzar.jpg"
+        }
+      ]
+    },
+    {
+      "event_title": "Oct 10 – The Pursuit of Elegance: Rituals of Song Dynasty – Tea appreciation",
+      "event_date": "10 Oct 2020 (Sat)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 280",
+      "event_description": "Oct 10 (Sat): Pre-qingming Lung Ching xFengqing Aged Tree Dianhong Black Tea\n\nTo celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.\n\nWhen presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Oct 24 – The Pursuit of Elegance: Rituals of Song Dynasty – Tea appreciation",
+      "event_date": "24 Oct 2020 (Sat)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 280",
+      "event_description": "Oct 24 (Sat) : Phoenix Dancong x Aged Liubao\n\nTo celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.\n\nWhen presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Oct 16 – The Pursuit of Elegance: Rituals of Song Dynasty – Tea appreciation",
+      "event_date": "16 Oct 2020 (Fri)",
+      "event_time": "3 - 4:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation upon request)",
+      "workshop_price": "HKD 280",
+      "event_description": "Oct 16 (Fri): Aged White Tea x Ripe Pu’er in Tangerine\n\nTo celebrate our first thematic exhibition – Imagine The ‘IM’possibilities: Bamboo, Crafts on Peel carries the art of tea with traditional crafts. The tea appreciation will be hosted by our certified tea master by introducing the tea etiquette, culture and how you could appreciate Chinese tea, followed by a demonstration.\n\nWhen presented two different flavors of tea with the utensils in the tea ceremony, you could appreciate our special collections of tea ware, feel the warmth of the cups and enjoy the fragrance of tea.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Crafts on Peel X Jinno Neko: Mid-Autumn Bamboo Lantern-Making Workshop",
+      "event_date": "26 Sep 2020 (Sat)",
+      "event_time": "1:00 – 6:00 p.m. (Light refreshment will be served)",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation provided on request)",
+      "instructor_name": "Jinno Neko",
+      "workshop_price": "HKD $680",
+      "event_description": "To celebrate the Mid-Autumn festival and embrace the tradition, contemporary artisan Jinno Neko has designed an exclusive lantern with rabbit and magpie patterns. On Sept 26 (Saturday), Jinno Neko will be teaching how to make a lantern by making use of the traditional bamboo crafting and papier-mache techniques of “binding, paper-mounting, painting, assembling”.\n\nThe fee includes 2 sets of materials in different colors, so you could craft another one at home! Join us to make a lantern by yourself and learn more about bamboo crafting!\n\n\\*The workshop is suitable for 12 years old or above\n\nContemporary Artisan — Jinno Neko\n\nJinno Neko graduated from Fashion Design at the Hong Kong Institute of Vocational Education. During this period, she became interested in Japanese art and culture. In 2007, she began to use papier-mâché as a medium, and Japanese folk toy dog “Inu Hariko” as her inspiration to create Jinno dog, also known as “Jinno Inu” in different forms. She integrates bamboo crafting techniques into her creation. Apart from that, she has her own collection of illustrations.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Sept 2 – Crafts on Peel X Ting For Chun: Shikainami Basketry Online Workshop",
+      "event_date": "2 Sep 2020 (Wed)",
+      "event_time": "6:30 PM - 8PM",
+      "event_location": "Online (Access link will be provided after the payment)",
+      "event_language": "\\| Cantonese (English interpretation provided on request)",
+      "instructor_name": "Ting For Chun",
+      "workshop_price": "HKD 480",
+      "event_description": "– Suitable for beginners –\n\nOriginated from a folk song, it has the meaning of “tranquil four seas” and is reminiscent of a peaceful world. Woven with a cross pattern to symbolize the intertwining waves, the rim is tightly knitted to form a stable structure. The basket can be used as a vase or combined with ceramics to become a dish. Cross weaving is one of the simplest bamboo weaving patterns and is suitable for beginners.\n\nContemporary artisan Ting For Chun will be teaching bamboo weaving techniques. The fee includes a craft kit with all materials need. (Express delivery or Pick up at Crafts on Peel)\n\nAdmission fee \\| $480\n\nQuota \\| 8\n\nLanguage \\| Cantonese (English interpretation provided on request)\n\nRegistration deadline \\| Aug 26 (Thu)",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "July 22 – Crafts on Peel X Lam Duen Shan Ming: Canton Porcelain and Tea Appreciation",
+      "event_date": "22 Jul 2020 (Wed)",
+      "event_time": "6:30 -8:30 pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Canton Porcelain",
+      "event_language": "Cantonese (English interpretation provided on request)",
+      "instructor_name": "Lam Duen Shan Ming",
+      "workshop_price": "HKD 680",
+      "capacity": 7,
+      "event_description": "Canton Porcelain, also known as Guangcai, is hand-painted ware on white porcelain. Known for its vibrant colours and intricate patterns, Canton Porcelain was mainly made for the export market during the Qing Dynasty. It represented a unique blend of Chinese and Western aesthetics.\n\nGuangcai artisan – Lam Duen Shan Ming, will give a brief talk and teach the techniques of painting on porcelain, followed by tea appreciation with Guangcai ware.\n\nWorkshop details as follow:\n\nDate: July 22, 2020 (Wednesday)\n\nTime: 6:30 – 8:30p.m.\n\nVenue: 11 Peel Street, Central\n\nQuota: 7\n\nLanguage: Cantonese (English interpretation provided on request)\n\nEnquiries: 2510 0637",
+      "registration_link": "https://www.craftsonpeel.com/events/",
+      "event_images": [
+        {
+          "value": "https://www.craftsonpeel.com/wp-content/uploads/2019/12/6.-DIXON-NGAI.jpg"
+        }
+      ]
+    },
+    {
+      "event_title": "July 11 – Crafts on Peel X Lam Duen Shan Ming: Canton Porcelain Workshop and Tea Appreciation",
+      "event_date": "11 Jul 2020 (Sat)",
+      "event_time": "3 - 5pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Canton Porcelain",
+      "event_language": "Cantonese (English interpretation provided on request)",
+      "instructor_name": "Lam Duen Shan Ming",
+      "workshop_price": "HKD 680",
+      "event_description": "Canton Porcelain, also known as Guangcai, is hand-painted ware on white porcelain. Known for its vibrant colours and intricate patterns, Canton Porcelain was mainly made for the export market during the Qing Dynasty.It represented a unique blend of Chinese and Western aesthetics.\n\nGuangcai artisan – Lam Duen Shan Ming, will give a brief talk and teach the techniques of painting on porcelain, followed by tea appreciation with Guangcai ware.\n\nWorkshop details are as follow:\n\n3:00 – 3:30pm – Tour of Exhibition: Crafts Interwoven – Past and Present\n\n3:30 – 4:30pm – Workshop\n\n4:30 – 5:00pm – Tea appreciation",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "July 8 – Crafts on Peel X Lam Duen Shan Ming: Canton Porcelain Workshop and Tea Appreciation",
+      "event_date": "8 Jul 2020 (Wed)",
+      "event_time": "3 - 5pm",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Canton Porcelain",
+      "event_language": "Cantonese(English interpretation provided on request)",
+      "instructor_name": "Lam Duen Shan Ming",
+      "workshop_price": "HKD 680",
+      "event_description": "Canton Porcelain, also known as Guangcai, is hand-painted ware on white porcelain. Known for its vibrant colours and intricate patterns, Canton Porcelain was mainly made for the export market during the Qing Dynasty.It represented a unique blend of Chinese and Western aesthetics.\n\nGuangcai artisan – Lam Duen Shan Ming, will give a brief talk and teach the techniques of painting on porcelain, followed by tea appreciation with Guangcai ware.\n\nWorkshop details are as follow:\n\n3:00 – 3:30pm – Tour of Exhibition: Crafts Interwoven – Past and Present\n\n3:30 – 4:30pm – Workshop\n\n4:30 – 5:00pm – Tea appreciation",
+      "registration_link": "https://www.craftsonpeel.com/events/",
+      "event_images": [
+        {
+          "value": "https://www.craftsonpeel.com/wp-content/uploads/2019/12/6.-DIXON-NGAI.jpg"
+        }
+      ]
+    },
+    {
+      "event_title": "Crafts on Peel X Jinno Neko: Water Marbling Bamboo Framework Pet Yurt Workshop",
+      "event_date": "21 Mar 2020 (Sat)",
+      "event_time": "1:00 - 6:00 p.m.",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation provided on request)",
+      "instructor_name": "Jinno Neko",
+      "workshop_price": "HKD $680 per head (pay by cash only)",
+      "capacity": 6,
+      "event_description": "In this workshop, you will learn to make a yurt for your beloved pet using basic water marbling, bamboo crafting and papier-mâché techniques. Workshop details are as follow:",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Crafts on Peel X Jinno Neko: Bamboo Crafting and Papier-mâché Lantern Workshop",
+      "event_date": "14 Mar 2020 (Sat)",
+      "event_time": "1:00 - 6:00 p.m.",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese (English interpretation provided on request)",
+      "instructor_name": "Jinno Neko",
+      "workshop_price": "HKD $680 per head (pay by cash only)",
+      "capacity": 8,
+      "event_description": "Have you ever been fascinated by the vivid paper lanterns that are often seen in traditional parades, temples or the Mid-Autumn Festival? This is the chance to make one by yourself!\n\nPaper lantern is an adaptation of bamboo crafting and papier-mâché techniques which are common in most traditional festivals and religious ceremonies related objects, such as papier-mâché offering, fire crackers and lion and dragon dance masks.\n\nMost remarkably in the Nebuta Festival of Aomori prefecture, these techniques can also be found in Japan. Themed by an ancient story of battling against demons, the large-scale lantern parade casts away evil spirits and prevents future disasters. The goldfish lantern carried by children in the parade symbolizes blessing.\n\nIn the upcoming workshop hosted by contemporary artisan Jinno Neko, participants will create a unique goldfish lantern with bamboo strips, tissue paper and colored paper by applying four basic techniques of bamboo crafting and papier-mâché: binding, paper-mounting, painting and assembling.\n\nCrafts on Peel will provide hand sanitizer and alcohol wipes for all participants. If weather permits, the workshop will be held in a semi-open space.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    },
+    {
+      "event_title": "Crafts on Peel X Yiwooo: Bamboo Weaving Workshop – Hemp Leaf Pattern",
+      "event_date": "7 Mar 2020 (Sat)",
+      "event_time": "2:00 - 5:00 PM",
+      "event_location": "Crafts on Peel (11 Peel Street, Central)",
+      "event_category": "Bamboo",
+      "event_language": "Cantonese",
+      "instructor_name": "Jinno Neko",
+      "instructor_bio": "contemporary artisan Angus Ting from Yiwooo.",
+      "workshop_price": "HKD $380 (pay by cash only)",
+      "capacity": 4,
+      "event_description": "Having visited our opening exhibition, are you tempted to try out crafts-making yourself? If so, do join our upcoming bamboo weaving workshop next Saturday, hosted by contemporary artisan Angus Ting from Yiwooo.\n\nParticipants will be hand-making a simple yet functional plate. The center of the plate is a hexagon with hemp leaf pattern, elegantly blooming like a flower when viewed from above.\n\nCrafts on Peel will provide hand sanitizer and alcohol wipes for all participants. If weather permits, the workshop will be held in a semi-open space.",
+      "registration_link": "https://www.craftsonpeel.com/events/"
+    }
+  ]
+}
