@@ -4,8 +4,14 @@ import {
   sectionClass,
   SectionHeading,
 } from "../(home)/components/shared";
+import { Suspense } from "react";
+import {
+  EventsArchiveBrowser,
+  type ArchiveEvent,
+} from "./components/events-archive-browser";
 
 type EventItem = {
+  event_id?: string;
   event_title?: string;
   event_date?: string;
   event_time?: string;
@@ -15,47 +21,51 @@ type EventItem = {
   registration_link?: string;
 };
 
+function extractYear(dateLabel = "") {
+  const match = dateLabel.match(/\b(19|20)\d{2}\b/);
+  return match ? Number(match[0]) : new Date().getFullYear();
+}
+
 const events = (eventData.craftsonpeel_events as EventItem[]).filter((event) =>
   Boolean(event.event_title),
 );
 
-const [...archivedEvents] = events;
+const archivedEvents: ArchiveEvent[] = events.map((event, index) => ({
+  id:
+    event.event_id ??
+    `${event.event_title ?? "event"}-${event.event_date ?? "unknown"}-${index}`,
+  title: event.event_title ?? "Untitled Event",
+  dateLabel: event.event_date ?? "Date TBC",
+  timeLabel: event.event_time ?? "",
+  locationLabel: event.event_location || "Crafts on Peel",
+  categoryLabel: event.event_category || "Programme",
+  description: event.event_description ?? "",
+  year: extractYear(event.event_date),
+  sortIndex: index,
+}));
 
 export default function Page() {
   return (
     <div className="bg-background">
       <section className={sectionClass}>
         <div className={containerClass}>
-          <div className="mt-14">
-            <SectionHeading
-              eyebrow="Event Archive"
-              title="Explore our past programmes"
-              description="Browse workshops, artist talks, and collaborations that have shaped our public programming over the years."
-            />
+          <SectionHeading
+            eyebrow="Event Archive"
+            title="Explore our past programmes"
+            description="Browse workshops, artist talks, and collaborations that have shaped our public programming over the years."
+          />
 
-            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {archivedEvents.map((event, index) => (
-                <article
-                  key={`${event.event_title}-${event.event_date}-${index}`}
-                  className="flex h-full flex-col border border-foreground/10 bg-background p-5"
-                >
-                  <p className="text-xs font-mono uppercase tracking-[0.2em] text-muted-foreground">
-                    {event.event_category ?? "Programme"}
-                  </p>
-                  <h2 className="mt-3 line-clamp-2 text-xl font-medium tracking-tight text-foreground">
-                    {event.event_title}
-                  </h2>
-                  <p className="mt-3 text-sm text-muted-foreground">
-                    {event.event_date ?? "Date TBC"}
-                    {event.event_time ? ` · ${event.event_time}` : ""}
-                  </p>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {event.event_location ?? "Crafts on Peel"}
-                  </p>
-                </article>
-              ))}
+          <Suspense
+            fallback={
+              <div className="mt-10 text-sm text-muted-foreground">
+                Loading events archive...
+              </div>
+            }
+          >
+            <div className="mt-10">
+              <EventsArchiveBrowser items={archivedEvents} />
             </div>
-          </div>
+          </Suspense>
         </div>
       </section>
     </div>
