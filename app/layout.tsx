@@ -5,6 +5,7 @@ import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,11 +38,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <TooltipProvider>
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </TooltipProvider>
+        <NuqsAdapter>
+          <TooltipProvider>
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </TooltipProvider>
+        </NuqsAdapter>
       </body>
     </html>
   );
