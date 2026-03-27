@@ -10,7 +10,7 @@ export function SectionCard({
   image,
 }: {
   title: string;
-  year: string;
+  year: string | number;
   summary: string;
   href: string;
   image: string;
@@ -26,7 +26,7 @@ export function SectionCard({
       <div className="flex flex-1 flex-col gap-3 p-5">
         <h3 className="text-lg font-medium text-foreground">{title}</h3>
         <p className="text-xs font-mono uppercase tracking-[0.2em] text-muted-foreground">
-          {year}
+          {String(year)}
         </p>
         <p className="text-sm leading-7 text-foreground/70">{summary}</p>
         <div className="mt-auto pt-2">
