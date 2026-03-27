@@ -8,6 +8,7 @@ import {
   SectionHeading,
 } from "../(home)/components/shared";
 import { ExhibitionArchiveBrowser } from "./components/exhibition-archive-browser";
+import { CurrentExhibitionSection } from "./components/current-exhibition-section";
 import { normalisePastExhibitions, type RawArchiveItem } from "./utils";
 
 export default function Page() {
@@ -21,6 +22,8 @@ export default function Page() {
     <div className="bg-background">
       <section className={sectionClass}>
         <div className={containerClass}>
+          <CurrentExhibitionSection />
+
           <SectionHeading
             eyebrow="Exhibition Archive"
             title="Explore our past exhibitions"
