@@ -42,6 +42,7 @@ export function ImageFrame({
   sizes?: string;
 }) {
   const imageSrc = src?.trim();
+  const isRemoteImage = Boolean(imageSrc && /^https?:\/\//.test(imageSrc));
   const [failedSrc, setFailedSrc] = useState<string | null>(null);
   const showImage = Boolean(imageSrc) && failedSrc !== imageSrc;
 
@@ -59,6 +60,7 @@ export function ImageFrame({
           className="object-cover"
           priority={priority}
           sizes={sizes}
+          unoptimized={isRemoteImage}
           onError={() => setFailedSrc(imageSrc ?? null)}
         />
       ) : (
