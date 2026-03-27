@@ -49,7 +49,7 @@ export default function ContactPage() {
                 <iframe
                   title="Crafts on Peel map"
                   src="https://maps.google.com/maps?q=Crafts%20on%20Peel&t=&z=16&ie=UTF8&iwloc=&output=embed"
-                  className="h-[340px] w-full"
+                  className="h-92 w-full"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 />
