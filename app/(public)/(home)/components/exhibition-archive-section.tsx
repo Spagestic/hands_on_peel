@@ -2,7 +2,8 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { exhibitionArchive } from "./data";
 import { containerClass, sectionClass, SectionHeading } from "./shared";
-import { SectionCard } from "./section-card";
+import { ArchivePosterCard } from "../../exhibitions/components/archive-poster-card";
+import { normalisePastExhibitions, type RawArchiveItem } from "../../exhibitions/utils";
 import {
   Carousel,
   CarouselContent,
@@ -12,6 +13,10 @@ import {
 } from "@/components/ui/carousel";
 
 export function ExhibitionArchiveSection() {
+  const archiveItems = normalisePastExhibitions(
+    exhibitionArchive as RawArchiveItem[],
+  );
+
   return (
     <section className={sectionClass}>
       <div className={containerClass}>
@@ -35,12 +40,12 @@ export function ExhibitionArchiveSection() {
           </div>
 
           <CarouselContent className="-ml-6">
-            {exhibitionArchive.map((item) => (
+            {archiveItems.map((item) => (
               <CarouselItem
                 key={item.href}
                 className="pl-6 basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
               >
-                <SectionCard {...item} />
+                <ArchivePosterCard item={item} />
               </CarouselItem>
             ))}
             <CarouselItem className="pl-6 basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
