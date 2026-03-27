@@ -7,7 +7,6 @@ export const exhibitionArchive = [
     year: 2025,
     location: "Hong Kong",
     dateLabel: "2 Jul, 2025 - 11 Oct, 2025",
-    category: "Hong Kong",
     summary: "A soft-spoken record of techniques, tools, and lived memory.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2025/07/1HKG-01-1448x2048.png",
@@ -20,7 +19,6 @@ export const exhibitionArchive = [
     year: 2025,
     location: "Hong Kong",
     dateLabel: "18 Jan, 2025 - 5 Apr, 2025",
-    category: "Hong Kong",
     summary: "A soft-spoken record of techniques, tools, and lived memory.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2025/01/COP-X-LDCW_2024_HKG_HKG-02-1448x2048.jpg",
@@ -34,7 +32,6 @@ export const exhibitionArchive = [
     year: 2024,
     location: "Hong Kong",
     dateLabel: "29 Jun, 2024 - 3 Aug, 2024",
-    category: "Hong Kong",
     summary:
       "An intimate exploration of metal craftsmanship by two master artisans.",
     image:
@@ -48,7 +45,6 @@ export const exhibitionArchive = [
     year: 2023,
     location: "Hong Kong",
     dateLabel: "18 Feb, 2023 - 26 Jan, 2024",
-    category: "Hong Kong",
     summary:
       "A presentation of Hong Kong makers and the living traditions that shape their work.",
     image:
@@ -62,25 +58,10 @@ export const exhibitionArchive = [
     year: 2022,
     location: "Hong Kong",
     dateLabel: "22 Jan, 2022 - 29 Oct, 2022",
-    category: "Hong Kong",
     summary:
       "Exploring wood as material and memory through contemporary craft practice.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2021/12/CraftsOnPeel_Wood-c-1460x2048.jpg",
-  },
-  {
-    title: "CREATIONS ENLIVENED: METAL AT LONDON CRAFT WEEK 2022",
-    href: "/exhibitions/creations-enlivened-metal-lcw-2022",
-    poster:
-      "https://www.craftsonpeel.com/wp-content/uploads/2022/06/Design_A_20220311_LCW_Cover-1.jpeg",
-    year: 2022,
-    location: "London / Hong Kong",
-    dateLabel: "9 May, 2022 - 15 May, 2022",
-    category: "Overseas",
-    summary:
-      "A showcase of metalwork from Hong Kong makers presented at London Craft Week.",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2022/06/Design_A_20220311_LCW_Cover-1.jpeg",
   },
   {
     title: "Creations Enlivened: Metal",
@@ -90,7 +71,6 @@ export const exhibitionArchive = [
     year: 2021,
     location: "Hong Kong",
     dateLabel: "20 Mar, 2021 - 29 Oct, 2021",
-    category: "Hong Kong",
     summary:
       "An exhibition highlighting contemporary metal techniques and traditional skills.",
     image:
@@ -104,7 +84,6 @@ export const exhibitionArchive = [
     year: 2020,
     location: "Hong Kong",
     dateLabel: "26 Sep, 2020 - 31 Dec, 2020",
-    category: "Hong Kong",
     summary:
       "An exploration of bamboo craft and its possibilities across material, form and technique.",
     image:
@@ -118,7 +97,6 @@ export const exhibitionArchive = [
     year: 2020,
     location: "Hong Kong",
     dateLabel: "18 Jan, 2020 - 22 Aug, 2020",
-    category: "Hong Kong",
     summary:
       "Interlaced materials, shared methods, and cross-generational practice.",
     image:
@@ -134,7 +112,6 @@ export const exhibitionArchive = [
     year: 2025,
     location: "London",
     dateLabel: "",
-    category: "Overseas",
     summary:
       "An international presentation of Hong Kong craft practice and cross-cultural collaborations at London Craft Week.",
     image:
@@ -148,7 +125,6 @@ export const exhibitionArchive = [
     year: 2023,
     location: "London",
     dateLabel: "",
-    category: "Overseas",
     summary:
       "A celebration of Hong Kong makers presented to an international audience during London Craft Week.",
     image:
@@ -162,7 +138,6 @@ export const exhibitionArchive = [
     year: 2022,
     location: "London",
     dateLabel: "9 May, 2022 - 15 May, 2022",
-    category: "Overseas",
     summary:
       "A London Craft Week edition of Creations Enlivened, featuring metalwork from Hong Kong artisans.",
     image:
@@ -176,7 +151,6 @@ export const exhibitionArchive = [
     year: 2021,
     location: "London",
     dateLabel: "4 Oct, 2021 - 10 Oct, 2021",
-    category: "Overseas",
     summary:
       "A London Craft Week showcase of bamboo craft from Hong Kong, exploring material innovation and heritage techniques.",
     image:

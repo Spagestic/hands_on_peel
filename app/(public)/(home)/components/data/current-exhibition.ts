@@ -6,7 +6,6 @@ export const currentExhibition = {
   year: 2025,
   location: "Hong Kong",
   dateLabel: "6 Dec 2025 – 8 Apr 2026",
-  category: "Hong Kong",
   summary:
     "A celebration of Hong Kong artisans, memory, and living heritage across materials, gestures, and everyday forms.",
 
@@ -17,6 +16,6 @@ export const currentExhibition = {
   details: [
     "Venue: Hong Kong",
     "Date: 6 Dec 2025 – 8 Apr 2026",
-    "Category: Hong Kong",
+    "Location: Hong Kong",
   ],
 };

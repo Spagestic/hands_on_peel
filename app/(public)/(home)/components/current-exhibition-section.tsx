@@ -14,7 +14,6 @@ export function CurrentExhibitionSection() {
   const exhibitionDetails = [
     { label: "Year", value: currentExhibition.year },
     { label: "Location", value: currentExhibition.location },
-    { label: "Category", value: currentExhibition.category },
   ].filter((item) => item.value);
 
   return (
