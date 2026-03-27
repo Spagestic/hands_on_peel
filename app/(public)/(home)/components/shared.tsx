@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 
 export const sectionClass = "section-shell";
 export const containerClass = "section-container";
@@ -39,28 +42,27 @@ export function ImageFrame({
   sizes?: string;
 }) {
   const imageSrc = src?.trim();
+  const [failedSrc, setFailedSrc] = useState<string | null>(null);
+  const showImage = Boolean(imageSrc) && failedSrc !== imageSrc;
 
   return (
     <div
       className={`relative overflow-hidden surface-frame ${className}`}
-      role={imageSrc ? undefined : "img"}
-      aria-label={imageSrc ? undefined : alt}
+      role={showImage ? undefined : "img"}
+      aria-label={showImage ? undefined : alt}
     >
-      {imageSrc ? (
+      {showImage ? (
         <Image
-          src={imageSrc}
+          src={imageSrc!}
           alt={alt}
           fill
           className="object-cover"
           priority={priority}
           sizes={sizes}
+          onError={() => setFailedSrc(imageSrc ?? null)}
         />
       ) : (
-        <div className="absolute inset-0 flex items-center justify-center bg-linear-to-br from-foreground/5 via-transparent to-foreground/5 p-6 text-center">
-          <span className="text-xs font-mono uppercase tracking-[0.22em] text-muted-foreground/70">
-            Image unavailable
-          </span>
-        </div>
+        <div className="absolute inset-0 bg-linear-to-br from-foreground/5 via-background to-foreground/10 p-4 sm:p-6"></div>
       )}
     </div>
   );
