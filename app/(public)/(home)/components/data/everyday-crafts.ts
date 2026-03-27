@@ -2,7 +2,8 @@ export const everydayCrafts = [
   {
     title: "Galvanised steel",
     subtitle: "Old shop gates and street fixtures",
-    image: "",
+    image:
+      "https://www.craftsonpeel.com/wp-content/uploads/2025/12/GTL_4623.jpg",
   },
   {
     title: "Bamboo craft",
@@ -19,6 +20,7 @@ export const everydayCrafts = [
   {
     title: "Temple gilding",
     subtitle: "Ritual objects and devotional surfaces",
-    image: "",
+    image:
+      "https://www.craftsonpeel.com/wp-content/uploads/2025/12/20251104_COP_43245-1.jpg",
   },
 ];
