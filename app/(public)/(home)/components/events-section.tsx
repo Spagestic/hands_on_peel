@@ -2,7 +2,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { workshopShowcase } from "./data/index";
+import eventData from "@/data/events.json";
 import {
   containerClass,
   eyebrowClass,
@@ -53,11 +53,11 @@ export function EventsSection() {
             </p>
 
             <ul className="mt-12 space-y-4">
-              {workshopShowcase.map((event, index) => {
+              {eventData.craftsonpeel_events.slice(0, 4).map((event, index) => {
                 const isActive = index === current;
                 return (
                   <li
-                    key={`${event.title}-${event.start_date}`}
+                    key={`${event.event_title}-${event.event_date}`}
                     onClick={() => api?.scrollTo(index)}
                     className={`cursor-pointer border-b border-foreground/10 pb-4 last:border-0 last:pb-0 transition-all duration-300 ${
                       isActive ? "opacity-100" : "opacity-40 hover:opacity-100"
@@ -66,10 +66,10 @@ export function EventsSection() {
                     <p
                       className={`text-base leading-7 line-clamp-1 ${isActive ? "text-foreground font-medium" : "text-foreground/80"}`}
                     >
-                      {event.title}
+                      {event.event_title}
                     </p>
                     <p className="mt-1 text-xs font-mono uppercase tracking-[0.2em] text-muted-foreground">
-                      {event.material} · {event.start_date}
+                      {event.event_category} · {event.event_date}
                     </p>
                   </li>
                 );
@@ -107,29 +107,29 @@ export function EventsSection() {
               </div>
 
               <CarouselContent className="-ml-4">
-                {workshopShowcase.map((event) => (
+                {eventData.craftsonpeel_events.slice(0, 3).map((event) => (
                   <CarouselItem
-                    key={`${event.title}-${event.start_date}-slide`}
+                    key={`${event.event_title}-${event.event_date}-slide`}
                     className="basis-full pl-4 md:basis-1/2 lg:basis-full"
                   >
                     <article className="flex h-full flex-col overflow-hidden border border-foreground/10 bg-background">
                       <ImageFrame
-                        alt={event.title}
+                        alt={event.event_title}
                         className="aspect-4/3"
                         sizes="(min-width: 1024px) 45vw, (min-width: 768px) 50vw, 100vw"
                       />
                       <div className="flex flex-1 flex-col p-5">
                         <p className="text-xs font-mono uppercase tracking-[0.2em] text-muted-foreground">
-                          {event.material}
+                          {event.event_category}
                         </p>
                         <h3
                           className="mt-3 line-clamp-2 flex-1 text-xl font-medium tracking-tight text-foreground"
-                          title={event.title}
+                          title={event.event_title}
                         >
-                          {event.title}
+                          {event.event_title}
                         </h3>
                         <p className="mt-2 text-sm font-mono uppercase tracking-[0.2em] text-muted-foreground">
-                          {event.start_date}
+                          {event.event_date}
                         </p>
                       </div>
                     </article>
