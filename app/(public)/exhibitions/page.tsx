@@ -7,6 +7,7 @@ import {
   sectionClass,
   SectionHeading,
 } from "../(home)/components/shared";
+import { Suspense } from "react";
 import { ExhibitionArchiveBrowser } from "./components/exhibition-archive-browser";
 import { CurrentExhibitionSection } from "./components/current-exhibition-section";
 import { normalisePastExhibitions, type RawArchiveItem } from "./utils";
@@ -30,9 +31,17 @@ export default function Page() {
             description="Discover the rich tapestry of our exhibition history, showcasing a diverse range of themes, artists, and mediums that have graced our space over the years."
           />
 
-          <div className="mt-10">
-            <ExhibitionArchiveBrowser items={pastExhibitions} />
-          </div>
+          <Suspense
+            fallback={
+              <div className="mt-10 text-sm text-muted-foreground">
+                Loading archive...
+              </div>
+            }
+          >
+            <div className="mt-10">
+              <ExhibitionArchiveBrowser items={pastExhibitions} />
+            </div>
+          </Suspense>
         </div>
       </section>
     </div>
