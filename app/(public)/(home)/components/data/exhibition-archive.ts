@@ -8,7 +8,7 @@ export const exhibitionArchive = [
     location: "Hong Kong",
     dateLabel: "2 Jul, 2025 - 11 Oct, 2025",
     category: "Hong Kong",
-    summary: "",
+    summary: "A soft-spoken record of techniques, tools, and lived memory.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2025/07/1HKG-01-1448x2048.png",
   },
@@ -21,7 +21,7 @@ export const exhibitionArchive = [
     location: "Hong Kong",
     dateLabel: "18 Jan, 2025 - 5 Apr, 2025",
     category: "Hong Kong",
-    summary: "",
+    summary: "A soft-spoken record of techniques, tools, and lived memory.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2025/01/COP-X-LDCW_2024_HKG_HKG-02-1448x2048.jpg",
   },
@@ -49,7 +49,8 @@ export const exhibitionArchive = [
     location: "Hong Kong",
     dateLabel: "18 Feb, 2023 - 26 Jan, 2024",
     category: "Hong Kong",
-    summary: "",
+    summary:
+      "A presentation of Hong Kong makers and the living traditions that shape their work.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2023/02/CraftsOnPeel_CraftsOfHongKong_HK_Wood-output-1446x2048.jpg",
   },
@@ -62,7 +63,8 @@ export const exhibitionArchive = [
     location: "Hong Kong",
     dateLabel: "22 Jan, 2022 - 29 Oct, 2022",
     category: "Hong Kong",
-    summary: "",
+    summary:
+      "Exploring wood as material and memory through contemporary craft practice.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2021/12/CraftsOnPeel_Wood-c-1460x2048.jpg",
   },
@@ -75,7 +77,8 @@ export const exhibitionArchive = [
     location: "London / Hong Kong",
     dateLabel: "9 May, 2022 - 15 May, 2022",
     category: "Overseas",
-    summary: "",
+    summary:
+      "A showcase of metalwork from Hong Kong makers presented at London Craft Week.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2022/06/Design_A_20220311_LCW_Cover-1.jpeg",
   },
@@ -88,22 +91,10 @@ export const exhibitionArchive = [
     location: "Hong Kong",
     dateLabel: "20 Mar, 2021 - 29 Oct, 2021",
     category: "Hong Kong",
-    summary: "",
+    summary:
+      "An exhibition highlighting contemporary metal techniques and traditional skills.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2021/02/Creations-Enlivened-Metal-KV-2mb.png",
-  },
-  {
-    title: "Imagine the ‘IM’possibilities: Bamboo | London Craft Week 2021",
-    href: "/exhibitions/imagine-impossibilities-bamboo-lcw-2021",
-    poster:
-      "https://www.craftsonpeel.com/wp-content/uploads/2021/09/CraftsOnPeel_LCW_KV-e-1447x2048.jpg",
-    year: 2021,
-    location: "London / Hong Kong",
-    dateLabel: "4 Oct, 2021 - 10 Oct, 2021",
-    category: "Overseas",
-    summary: "",
-    image:
-      "https://www.craftsonpeel.com/wp-content/uploads/2021/09/CraftsOnPeel_LCW_KV-e-1447x2048.jpg",
   },
   {
     title: "IMAGINE THE ‘IM’POSSIBILITIES: BAMBOO",
@@ -114,7 +105,8 @@ export const exhibitionArchive = [
     location: "Hong Kong",
     dateLabel: "26 Sep, 2020 - 31 Dec, 2020",
     category: "Hong Kong",
-    summary: "",
+    summary:
+      "An exploration of bamboo craft and its possibilities across material, form and technique.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2020/08/CraftsonPeel_Bamboo_KV6-200810-1447x2048.jpg",
   },
@@ -131,5 +123,63 @@ export const exhibitionArchive = [
       "Interlaced materials, shared methods, and cross-generational practice.",
     image:
       "https://www.craftsonpeel.com/wp-content/uploads/2019/12/CraftsonPeel_Exhibition_KeyVisual-1446x2048.jpg",
+  },
+
+  /* Overseas exhibitions appended from the Overseas Exhibition page */
+  {
+    title: "Embracing Craft, Connecting Culture at London Craft Week",
+    href: "/exhibitions/embracing-craft-lcw-2025",
+    poster:
+      "https://www.craftsonpeel.com/wp-content/uploads/2025/09/COP-X-LDCW_2024_LDN_UPDATE_LDN-01-1-rgb-1448x2048.jpg",
+    year: 2025,
+    location: "London",
+    dateLabel: "",
+    category: "Overseas",
+    summary:
+      "An international presentation of Hong Kong craft practice and cross-cultural collaborations at London Craft Week.",
+    image:
+      "https://www.craftsonpeel.com/wp-content/uploads/2025/09/COP-X-LDCW_2024_LDN_UPDATE_LDN-01-1-rgb-1448x2048.jpg",
+  },
+  {
+    title: "Hearts & Hands: Crafts of Hong Kong at London Craft Week",
+    href: "/exhibitions/hearts-and-hands-lcw-2023",
+    poster:
+      "https://www.craftsonpeel.com/wp-content/uploads/2025/09/CraftsOnPeel_CraftsOfHongKong_UK_Wood-output-1446x2048-1.jpg",
+    year: 2023,
+    location: "London",
+    dateLabel: "",
+    category: "Overseas",
+    summary:
+      "A celebration of Hong Kong makers presented to an international audience during London Craft Week.",
+    image:
+      "https://www.craftsonpeel.com/wp-content/uploads/2025/09/CraftsOnPeel_CraftsOfHongKong_UK_Wood-output-1446x2048-1.jpg",
+  },
+  {
+    title: "Creations Enlivened: Metal at London Craft Week",
+    href: "/exhibitions/creations-enlivened-metal-lcw-2022-2",
+    poster:
+      "https://www.craftsonpeel.com/wp-content/uploads/2022/06/Design_A_20220311_LCW_Cover-1.jpeg",
+    year: 2022,
+    location: "London",
+    dateLabel: "9 May, 2022 - 15 May, 2022",
+    category: "Overseas",
+    summary:
+      "A London Craft Week edition of Creations Enlivened, featuring metalwork from Hong Kong artisans.",
+    image:
+      "https://www.craftsonpeel.com/wp-content/uploads/2022/06/Design_A_20220311_LCW_Cover-1.jpeg",
+  },
+  {
+    title: "Imagine the ‘IM’possibilities: Bamboo at London Craft Week",
+    href: "/exhibitions/imagine-impossibilities-bamboo-lcw-2021-2",
+    poster:
+      "https://www.craftsonpeel.com/wp-content/uploads/2025/09/Screenshot-2025-09-09-at-12.57.46-PM.png",
+    year: 2021,
+    location: "London",
+    dateLabel: "4 Oct, 2021 - 10 Oct, 2021",
+    category: "Overseas",
+    summary:
+      "A London Craft Week showcase of bamboo craft from Hong Kong, exploring material innovation and heritage techniques.",
+    image:
+      "https://www.craftsonpeel.com/wp-content/uploads/2025/09/Screenshot-2025-09-09-at-12.57.46-PM.png",
   },
 ];
