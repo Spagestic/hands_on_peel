@@ -15,7 +15,7 @@ export function ArchiveResults({
   return (
     <>
       {items.length > 0 ? (
-        <div className="grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid grid-cols-1 content-start items-stretch gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 xl:gap-y-10">
           {items.map((item) => (
             <ArchivePosterCard key={item.id} item={item} />
           ))}
