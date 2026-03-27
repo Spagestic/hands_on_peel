@@ -107,13 +107,14 @@ export function EventsSection() {
               </div>
 
               <CarouselContent className="-ml-4">
-                {eventData.craftsonpeel_events.slice(0, 3).map((event) => (
+                {eventData.craftsonpeel_events.slice(0, 4).map((event) => (
                   <CarouselItem
                     key={`${event.event_title}-${event.event_date}-slide`}
                     className="basis-full pl-4 md:basis-1/2 lg:basis-full"
                   >
                     <article className="flex h-full flex-col overflow-hidden border border-foreground/10 bg-background">
                       <ImageFrame
+                        src={event.event_image_url}
                         alt={event.event_title}
                         className="aspect-4/3"
                         sizes="(min-width: 1024px) 45vw, (min-width: 768px) 50vw, 100vw"
