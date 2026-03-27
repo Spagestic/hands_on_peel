@@ -1,5 +1,5 @@
 import { shopCategories } from "@/data/shop-categories";
-import type { RawShopProduct } from "@/data/shop-products";
+import { shopProducts, type RawShopProduct } from "@/data/shop-products";
 
 export type ShopProduct = {
   id: string;
@@ -53,4 +53,46 @@ export function normaliseShopProducts(items: RawShopProduct[]): ShopProduct[] {
       sortIndex: index,
     };
   });
+}
+
+export function getAllShopProducts() {
+  return normaliseShopProducts(shopProducts);
+}
+
+export function getShopProductBySlug(slug: string) {
+  return getAllShopProducts().find((item) => item.slug === slug);
+}
+
+export function getRelatedShopProducts({
+  currentSlug,
+  limit = 4,
+}: {
+  currentSlug: string;
+  limit?: number;
+}) {
+  const products = getAllShopProducts();
+  const current = products.find((item) => item.slug === currentSlug);
+
+  if (!current) {
+    return [];
+  }
+
+  const related = products
+    .filter((item) => item.slug !== current.slug)
+    .sort((a, b) => {
+      const aCategoryScore = a.categorySlug === current.categorySlug ? 2 : 0;
+      const bCategoryScore = b.categorySlug === current.categorySlug ? 2 : 0;
+      const aTierScore = a.tier === current.tier ? 1 : 0;
+      const bTierScore = b.tier === current.tier ? 1 : 0;
+      const aScore = aCategoryScore + aTierScore;
+      const bScore = bCategoryScore + bTierScore;
+
+      if (aScore !== bScore) {
+        return bScore - aScore;
+      }
+
+      return b.priceHkd - a.priceHkd || a.sortIndex - b.sortIndex;
+    });
+
+  return related.slice(0, limit);
 }
