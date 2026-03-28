@@ -11,7 +11,7 @@ import {
   ExhibitionDetailHero,
   ExhibitionDetailOverview,
   ExhibitionDetailWorks,
-} from "../components/exhibition-detail-sections";
+} from "./components/exhibition-detail-sections";
 
 type ExhibitionDetailPageProps = {
   params: Promise<{
