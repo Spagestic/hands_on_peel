@@ -51,7 +51,10 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.5, ease: "easeOut" }}
           className="flex flex-col sm:flex-row flex-wrap justify-start gap-4 pt-4 w-full sm:w-auto"
         >
-          <Link href="/exhibitions/current-slug" className="w-full sm:w-auto">
+          <Link
+            href="/exhibitions/hearts-and-hands"
+            className="w-full sm:w-auto"
+          >
             {/* Point to actual exhibition */}
             <Button
               size="lg"
