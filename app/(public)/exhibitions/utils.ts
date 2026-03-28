@@ -13,6 +13,8 @@ export type RawArchiveItem = {
   href: string;
   image?: string;
   poster?: string;
+  leadImage?: string;
+  leadImageCaption?: string;
   meta?: string;
   subtitle?: string;
   year?: number;
@@ -20,6 +22,12 @@ export type RawArchiveItem = {
   dateLabel?: string;
   status?: string;
   summary?: string;
+  brochureHref?: string;
+  foreword?: string[];
+  exhibitionSummary?: string[];
+  programme?: string;
+  archiveType?: string;
+  works?: ExhibitionWork[];
 };
 
 export type ExhibitionRecord = RawArchiveItem & {
@@ -28,6 +36,15 @@ export type ExhibitionRecord = RawArchiveItem & {
   dateLabel?: string;
   summary?: string;
   details?: string[];
+};
+
+export type ExhibitionResource = {
+  id: string;
+  title: string;
+  image?: string;
+  description: string;
+  href?: string;
+  ctaLabel?: string;
 };
 
 export type ExhibitionWork = {
@@ -41,17 +58,22 @@ export type ExhibitionDetailModel = {
   slug: string;
   title: string;
   href: string;
-  heroImage?: string;
+  leadImage?: string;
+  leadImageCaption: string;
   posterImage?: string;
   dateLabel: string;
   locationLabel: string;
   yearLabel: string;
+  statusLabel: string;
   summary: string;
-  intro: string;
-  narrative: string[];
-  infoPairs: { label: string; value: string }[];
+  overview: string;
+  foreword: string[];
+  exhibitionSummary: string[];
+  detailPairs: { label: string; value: string }[];
+  brochureHref?: string;
+  resources: ExhibitionResource[];
   works: ExhibitionWork[];
-  featuredWorks: PastExhibition[];
+  relatedExhibitions: PastExhibition[];
 };
 
 export function parseDetailPairs(details: string[] = []) {
@@ -150,38 +172,101 @@ function fallbackSummary(exhibition: ExhibitionRecord) {
   );
 }
 
+function isCurrentExhibition(exhibition: ExhibitionRecord) {
+  return (
+    exhibition.href === currentExhibition.href &&
+    exhibition.year === currentExhibition.year &&
+    exhibition.dateLabel === currentExhibition.dateLabel
+  );
+}
+
 function getExhibitionMedia(exhibition: ExhibitionRecord) {
-  const primary = resolvePosterSource(exhibition.poster ?? exhibition.image);
-  const secondary = resolvePosterSource(exhibition.image ?? exhibition.poster);
-  const media = [primary, secondary].filter(Boolean) as string[];
+  const poster = resolvePosterSource(exhibition.poster ?? exhibition.image);
+  const lead = resolvePosterSource(
+    exhibition.leadImage ?? exhibition.image ?? exhibition.poster,
+  );
+  const media = [poster, lead].filter(Boolean) as string[];
 
   return [...new Set(media)];
 }
 
-function buildNarrative(exhibition: ExhibitionRecord, summary: string) {
-  const place = exhibition.location ?? "Hong Kong";
-  const dateLabel = exhibition.dateLabel ?? "Dates to be announced";
+function normalizeParagraphs(blocks: string[] | undefined, fallback: string[]) {
+  const normalized = blocks?.map((block) => block.trim()).filter(Boolean) ?? [];
+  return normalized.length > 0 ? normalized : fallback;
+}
 
-  return [
+function buildForeword(exhibition: ExhibitionRecord, summary: string) {
+  const place = exhibition.location ?? "Hong Kong";
+
+  return normalizeParagraphs(exhibition.foreword, [
     summary,
     `${exhibition.title} situates contemporary making in dialogue with heritage techniques and local narratives rooted in ${place}.`,
-    `Presented ${dateLabel}, the exhibition extends an invitation to look closely at process, materiality, and the social life of crafted objects.`,
+  ]);
+}
+
+function buildExhibitionSummary(exhibition: ExhibitionRecord) {
+  const dateLabel = exhibition.dateLabel ?? "Dates to be announced";
+  const place = exhibition.location ?? "Hong Kong";
+
+  return normalizeParagraphs(exhibition.exhibitionSummary, [
+    `${exhibition.title} highlights material knowledge, process, and the cultural context that gives each object its life beyond display.`,
+    `Presented ${dateLabel}, the exhibition invites visitors to read craft through gesture, memory, and place in ${place}.`,
+  ]);
+}
+
+function buildDetailPairs(
+  exhibition: ExhibitionRecord,
+  yearValue: number,
+  statusLabel: string,
+) {
+  const locationLabel = exhibition.location ?? "Hong Kong";
+  const programmeLabel =
+    exhibition.programme ??
+    (locationLabel.toLowerCase() === "hong kong"
+      ? "Local exhibition"
+      : "Overseas exhibition");
+
+  return [
+    { label: "Date", value: exhibition.dateLabel ?? `${yearValue}` },
+    { label: "Location", value: locationLabel },
+    { label: "Status", value: statusLabel },
+    { label: "Year", value: `${yearValue}` },
+    { label: "Programme", value: programmeLabel },
+    {
+      label: "Archive type",
+      value: exhibition.archiveType ?? "Crafts on Peel archive",
+    },
   ];
 }
 
-function buildFallbackWorks(exhibition: ExhibitionRecord): ExhibitionWork[] {
-  const media = getExhibitionMedia(exhibition);
-  const source = media.length > 0 ? media : [undefined];
+function buildResources(
+  exhibition: ExhibitionRecord,
+  posterImage: string | undefined,
+  leadImage: string | undefined,
+): ExhibitionResource[] {
+  const resources: ExhibitionResource[] = [];
 
-  return source.map((image, index) => ({
-    id: `${exhibition.href}-work-${index + 1}`,
-    title: `${exhibition.title} — Work ${index + 1}`,
-    image,
-    caption:
-      index === 0
-        ? "Featured installation view"
-        : "Detail study of materials and craftsmanship",
-  }));
+  if (posterImage) {
+    resources.push({
+      id: `${exhibition.href}-poster`,
+      title: "Poster",
+      image: posterImage,
+      description: "Key visual for the exhibition archive entry.",
+    });
+  }
+
+  if (leadImage && leadImage !== posterImage) {
+    resources.push({
+      id: `${exhibition.href}-installation-view`,
+      title: "Installation view",
+      image: leadImage,
+      description:
+        exhibition.leadImageCaption ??
+        "Exhibition view, installation detail, or venue context.",
+    });
+  }
+
+  return resources;
 }
 
 function buildFeaturedWorks(currentSlug: string): PastExhibition[] {
@@ -200,29 +285,38 @@ export function buildExhibitionDetailModel(
   const metaText = [exhibition.dateLabel, exhibition.location]
     .filter(Boolean)
     .join(" · ");
-  const yearValue = exhibition.year ?? extractYear(metaText) ?? new Date().getFullYear();
-  const infoPairs = parseDetailPairs(exhibition.details).length
-    ? parseDetailPairs(exhibition.details)
-    : [
-        { label: "Date", value: exhibition.dateLabel ?? `${yearValue}` },
-        { label: "Location", value: exhibition.location ?? "Hong Kong" },
-        { label: "Year", value: `${yearValue}` },
-      ];
+  const yearValue =
+    exhibition.year ?? extractYear(metaText) ?? new Date().getFullYear();
+  const statusLabel = exhibition.status ?? (
+    isCurrentExhibition(exhibition) ? "Current exhibition" : "Past exhibition"
+  );
+  const leadImage =
+    resolvePosterSource(exhibition.leadImage) ?? media[1] ?? media[0];
+  const posterImage = resolvePosterSource(exhibition.poster) ?? media[0];
+  const brochureHref = exhibition.brochureHref?.trim() || undefined;
 
   return {
     slug,
     title: exhibition.title,
     href: exhibition.href,
-    heroImage: media[0],
-    posterImage: media[1] ?? media[0],
+    leadImage,
+    leadImageCaption:
+      exhibition.leadImageCaption ??
+      "Exhibition view / installation detail / venue context",
+    posterImage,
     dateLabel: exhibition.dateLabel ?? `${yearValue}`,
     locationLabel: exhibition.location ?? extractLocation(metaText),
     yearLabel: `${yearValue}`,
+    statusLabel,
     summary,
-    intro: `${exhibition.title} explores how craft traditions continue to evolve through collaboration, experimentation, and intergenerational exchange.`,
-    narrative: buildNarrative(exhibition, summary),
-    infoPairs,
-    works: buildFallbackWorks(exhibition),
-    featuredWorks: buildFeaturedWorks(slug),
+    overview:
+      `${exhibition.title} offers a concise introduction to the exhibition's makers, materials, and curatorial context before the texts below.`,
+    foreword: buildForeword(exhibition, summary),
+    exhibitionSummary: buildExhibitionSummary(exhibition),
+    detailPairs: buildDetailPairs(exhibition, yearValue, statusLabel),
+    brochureHref,
+    resources: buildResources(exhibition, posterImage, leadImage),
+    works: exhibition.works ?? [],
+    relatedExhibitions: buildFeaturedWorks(slug),
   };
 }
