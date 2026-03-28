@@ -9,6 +9,7 @@ export type Craftsman = {
   name: string;
   image_url?: string;
   bio?: string;
+  name_citation?: string;
   craft_categories?: { value: string }[];
 };
 

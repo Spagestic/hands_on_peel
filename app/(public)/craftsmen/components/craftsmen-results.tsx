@@ -1,20 +1,17 @@
 "use client";
 
+import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { ImageFrame } from "@/components/shared";
-
-type CraftsmanResultItem = {
-  name: string;
-  image_url?: string;
-  craft_categories?: { value: string }[];
-};
+import { getCraftsmanSlug } from "../utils";
+import type { Craftsman } from "./craftsmen-browser";
 
 export function CraftsmenResults({
   items,
   onLoadMore,
   hasMore,
 }: {
-  items: CraftsmanResultItem[];
+  items: Craftsman[];
   onLoadMore: () => void;
   hasMore: boolean;
 }) {
@@ -23,35 +20,38 @@ export function CraftsmenResults({
       {items.length > 0 ? (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((craftsman) => (
-            <article
+            <Link
               key={craftsman.name}
-              className="overflow-hidden border border-foreground/10 bg-card/30"
+              href={`/craftsmen/${getCraftsmanSlug(craftsman)}`}
+              className="group block overflow-hidden border border-foreground/10 bg-card/30 transition-transform duration-300 hover:-translate-y-0.5"
             >
-              <ImageFrame
-                src={craftsman.image_url}
-                alt={craftsman.name}
-                className="aspect-3/4"
-                sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
-              />
+              <article>
+                <ImageFrame
+                  src={craftsman.image_url}
+                  alt={craftsman.name}
+                  className="aspect-3/4"
+                  sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
+                />
 
-              <div className="flex flex-col gap-4 p-5">
-                <h2 className="text-xl font-medium tracking-tight text-foreground">
-                  {craftsman.name}
-                </h2>
+                <div className="flex flex-col gap-4 p-5">
+                  <h2 className="text-xl font-medium tracking-tight text-foreground">
+                    {craftsman.name}
+                  </h2>
 
-                <div className="flex flex-wrap gap-2">
-                  {(craftsman.craft_categories ?? []).map((item) => (
-                    <Badge
-                      key={`${craftsman.name}-${item.value}-category`}
-                      variant="outline"
-                      className="rounded-none tracking-[0.14em]"
-                    >
-                      {item.value}
-                    </Badge>
-                  ))}
+                  <div className="flex flex-wrap gap-2">
+                    {(craftsman.craft_categories ?? []).map((item) => (
+                      <Badge
+                        key={`${craftsman.name}-${item.value}-category`}
+                        variant="outline"
+                        className="rounded-none tracking-[0.14em]"
+                      >
+                        {item.value}
+                      </Badge>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+            </Link>
           ))}
         </div>
       ) : (
