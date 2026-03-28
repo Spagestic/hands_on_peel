@@ -4,7 +4,7 @@ import { containerClass } from "@/components/shared";
 
 export function ExhibitionDetailBackLink() {
   return (
-    <section className="pt-6 sm:pt-8">
+    <section className="">
       <div className={containerClass}>
         <Link
           href="/exhibitions"
