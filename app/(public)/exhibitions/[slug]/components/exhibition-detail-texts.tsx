@@ -1,7 +1,7 @@
 import type { ExhibitionDetailModel } from "../../utils";
-import { containerClass, sectionClass } from "@/components/shared";
+import { containerClass, exhibitionSectionClass } from "@/components/shared";
 
-function TextCard({
+function TextBlock({
   title,
   paragraphs,
 }: {
@@ -9,14 +9,15 @@ function TextCard({
   paragraphs: string[];
 }) {
   return (
-    <article className="bg-card/30 p-6 sm:p-8">
-      <h2 className="text-sm font-mono uppercase tracking-[0.2em] text-muted-foreground">
-        {title}
-      </h2>
+    <article className="min-w-0">
+      <h2 className="exhibition-eyebrow">{title}</h2>
 
-      <div className="mt-5 space-y-4">
+      <div className="mt-3 space-y-4 sm:mt-4 sm:space-y-5">
         {paragraphs.map((paragraph) => (
-          <p key={paragraph} className="text-sm leading-7 text-foreground/80">
+          <p
+            key={paragraph}
+            className="text-base leading-8 text-foreground/88 sm:text-[1.0625rem] sm:leading-9"
+          >
             {paragraph}
           </p>
         ))}
@@ -31,15 +32,11 @@ export function ExhibitionDetailTexts({
   detail: ExhibitionDetailModel;
 }) {
   return (
-    <section className={sectionClass}>
+    <section className={exhibitionSectionClass}>
       <div className={containerClass}>
-        <div className="mb-8">
-          <p className="section-eyebrow">Exhibition texts</p>
-        </div>
-
-        <div className="grid gap-6 lg:grid-cols-2">
-          <TextCard title="Foreword" paragraphs={detail.foreword} />
-          <TextCard
+        <div className="grid gap-10 md:gap-12 lg:grid-cols-2 lg:gap-14 lg:gap-x-16 xl:gap-x-20">
+          <TextBlock title="Foreword" paragraphs={detail.foreword} />
+          <TextBlock
             title="Exhibition summary"
             paragraphs={detail.exhibitionSummary}
           />

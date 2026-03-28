@@ -131,7 +131,7 @@ html {
   }
 
   .section-eyebrow {
-    @apply text-xs font-mono uppercase tracking-[0.22em] text-muted-foreground;
+    @apply text-[0.8125rem] font-mono uppercase tracking-[0.2em] text-foreground/65 sm:text-sm;
   }
 
   .section-title {
@@ -139,7 +139,7 @@ html {
   }
 
   .section-body {
-    @apply text-base leading-8 text-foreground/80 sm:text-lg;
+    @apply text-base leading-8 text-foreground/85 sm:text-lg sm:leading-8;
   }
 
   .section-cta {
@@ -163,7 +163,16 @@ html {
   }
 
   .mono-label {
-    @apply text-xs font-mono uppercase tracking-[0.2em] text-muted-foreground;
+    @apply text-xs font-mono uppercase tracking-[0.18em] text-foreground/60 sm:text-[0.8125rem];
+  }
+
+  /* Exhibition detail: calmer vertical rhythm than default section-shell */
+  .exhibition-section-shell {
+    @apply border-t border-foreground/10 bg-background px-4 py-14 sm:px-6 md:py-16 lg:px-8;
+  }
+
+  .exhibition-eyebrow {
+    @apply text-[0.8125rem] font-mono uppercase tracking-[0.2em] text-foreground/70 sm:text-sm;
   }
 }
 

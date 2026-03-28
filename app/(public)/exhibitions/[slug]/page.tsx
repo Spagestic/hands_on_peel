@@ -8,7 +8,6 @@ import {
 } from "../utils";
 import {
   ExhibitionDetailBackLink,
-  ExhibitionDetailFacts,
   ExhibitionDetailHeader,
   ExhibitionDetailLeadImage,
   ExhibitionDetailRelatedExhibitions,
@@ -66,7 +65,6 @@ export default async function ExhibitionDetailPage({
       <ExhibitionDetailHeader detail={detail} />
       <ExhibitionDetailLeadImage detail={detail} />
       <ExhibitionDetailTexts detail={detail} />
-      <ExhibitionDetailFacts detail={detail} />
       <ExhibitionDetailResources detail={detail} />
       <ExhibitionDetailSelectedWorks detail={detail} />
       <ExhibitionDetailRelatedExhibitions detail={detail} />

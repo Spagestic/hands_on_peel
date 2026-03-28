@@ -2,8 +2,11 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { cn } from "@/lib/utils";
 
 export const sectionClass = "section-shell";
+/** Tighter rhythm for long-form exhibition pages */
+export const exhibitionSectionClass = "exhibition-section-shell";
 export const containerClass = "section-container";
 export const eyebrowClass = "section-eyebrow";
 export const titleClass = "section-title";
@@ -14,13 +17,24 @@ export function SectionHeading({
   eyebrow,
   title,
   description,
+  className,
+  dense,
 }: {
   eyebrow: string;
   title: string;
   description: string;
+  className?: string;
+  /** Less margin below — use on exhibition subsections */
+  dense?: boolean;
 }) {
   return (
-    <div className="mb-10 flex max-w-3xl flex-col gap-4">
+    <div
+      className={cn(
+        "flex max-w-3xl flex-col gap-2.5 sm:gap-3",
+        dense ? "mb-6 sm:mb-7" : "mb-10",
+        className,
+      )}
+    >
       <p className={eyebrowClass}>{eyebrow}</p>
       <h2 className={titleClass}>{title}</h2>
       <p className={bodyClass}>{description}</p>

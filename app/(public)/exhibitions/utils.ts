@@ -14,6 +14,8 @@ export type RawArchiveItem = {
   image?: string;
   poster?: string;
   leadImage?: string;
+  /** Optional second installation image (supporting detail). */
+  leadImageSecondary?: string;
   leadImageCaption?: string;
   meta?: string;
   subtitle?: string;
@@ -47,6 +49,16 @@ export type ExhibitionResource = {
   ctaLabel?: string;
 };
 
+/** Printable / downloadable brochure slots (PDFs, packs, etc.) */
+export type ExhibitionBrochureItem = {
+  id: string;
+  title: string;
+  subtitle?: string;
+  href?: string;
+  /** No file yet — show placeholder tile */
+  isPlaceholder?: boolean;
+};
+
 export type ExhibitionWork = {
   id: string;
   title: string;
@@ -59,6 +71,7 @@ export type ExhibitionDetailModel = {
   title: string;
   href: string;
   leadImage?: string;
+  leadImageSecondary?: string;
   leadImageCaption: string;
   posterImage?: string;
   dateLabel: string;
@@ -71,6 +84,8 @@ export type ExhibitionDetailModel = {
   exhibitionSummary: string[];
   detailPairs: { label: string; value: string }[];
   brochureHref?: string;
+  /** Brochure and related PDFs — placeholders until real assets are wired */
+  brochures: ExhibitionBrochureItem[];
   resources: ExhibitionResource[];
   works: ExhibitionWork[];
   relatedExhibitions: PastExhibition[];
@@ -269,6 +284,50 @@ function buildResources(
   return resources;
 }
 
+function buildDefaultBrochureHref(href: string | undefined) {
+  if (!href || href === "/") return undefined;
+  return `${href.replace(/\/$/, "")}/brochure`;
+}
+
+function buildBrochureItems(
+  exhibition: ExhibitionRecord,
+  brochureHref: string | undefined,
+): ExhibitionBrochureItem[] {
+  const items: Omit<ExhibitionBrochureItem, "id">[] = [
+    {
+      title: "Main brochure",
+      subtitle: "Full exhibition PDF",
+      href: brochureHref,
+      isPlaceholder: true,
+    },
+    {
+      title: "Press pack",
+      subtitle: "Media & images",
+      isPlaceholder: true,
+    },
+    {
+      title: "Education sheet",
+      subtitle: "Schools & groups",
+      isPlaceholder: true,
+    },
+    {
+      title: "Large print",
+      subtitle: "Accessible format",
+      isPlaceholder: true,
+    },
+    {
+      title: "Sponsors & credits",
+      subtitle: "Acknowledgements",
+      isPlaceholder: true,
+    },
+  ];
+
+  return items.map((item, index) => ({
+    ...item,
+    id: `${exhibition.href}-brochure-${index}`,
+  }));
+}
+
 function buildFeaturedWorks(currentSlug: string): PastExhibition[] {
   return normalisePastExhibitions(exhibitionArchive as RawArchiveItem[])
     .filter((item) => getExhibitionSlugFromHref(item.href) !== currentSlug)
@@ -293,16 +352,22 @@ export function buildExhibitionDetailModel(
   const leadImage =
     resolvePosterSource(exhibition.leadImage) ?? media[1] ?? media[0];
   const posterImage = resolvePosterSource(exhibition.poster) ?? media[0];
-  const brochureHref = exhibition.brochureHref?.trim() || undefined;
+  const brochureHref =
+    exhibition.brochureHref?.trim() ||
+    buildDefaultBrochureHref(exhibition.href);
+  const leadImageSecondary = resolvePosterSource(
+    exhibition.leadImageSecondary,
+  );
 
   return {
     slug,
     title: exhibition.title,
     href: exhibition.href,
     leadImage,
+    leadImageSecondary,
     leadImageCaption:
       exhibition.leadImageCaption ??
-      "Exhibition view / installation detail / venue context",
+      "Gallery installation at Crafts on Peel, 11 Peel Street, Central — exhibition display, installation detail, and venue context.",
     posterImage,
     dateLabel: exhibition.dateLabel ?? `${yearValue}`,
     locationLabel: exhibition.location ?? extractLocation(metaText),
@@ -315,6 +380,7 @@ export function buildExhibitionDetailModel(
     exhibitionSummary: buildExhibitionSummary(exhibition),
     detailPairs: buildDetailPairs(exhibition, yearValue, statusLabel),
     brochureHref,
+    brochures: buildBrochureItems(exhibition, brochureHref),
     resources: buildResources(exhibition, posterImage, leadImage),
     works: exhibition.works ?? [],
     relatedExhibitions: buildFeaturedWorks(slug),
