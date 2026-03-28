@@ -7,10 +7,14 @@ import {
   getExhibitionSlugFromHref,
 } from "../utils";
 import {
-  ExhibitionDetailFeaturedCarousel,
-  ExhibitionDetailHero,
-  ExhibitionDetailOverview,
-  ExhibitionDetailWorks,
+  ExhibitionDetailBackLink,
+  ExhibitionDetailFacts,
+  ExhibitionDetailHeader,
+  ExhibitionDetailLeadImage,
+  ExhibitionDetailRelatedExhibitions,
+  ExhibitionDetailResources,
+  ExhibitionDetailSelectedWorks,
+  ExhibitionDetailTexts,
 } from "./components/exhibition-detail-sections";
 
 type ExhibitionDetailPageProps = {
@@ -58,10 +62,14 @@ export default async function ExhibitionDetailPage({
 
   return (
     <div className="bg-background">
-      <ExhibitionDetailHero detail={detail} />
-      <ExhibitionDetailOverview detail={detail} />
-      <ExhibitionDetailWorks detail={detail} />
-      <ExhibitionDetailFeaturedCarousel detail={detail} />
+      <ExhibitionDetailBackLink />
+      <ExhibitionDetailHeader detail={detail} />
+      <ExhibitionDetailLeadImage detail={detail} />
+      <ExhibitionDetailTexts detail={detail} />
+      <ExhibitionDetailFacts detail={detail} />
+      <ExhibitionDetailResources detail={detail} />
+      <ExhibitionDetailSelectedWorks detail={detail} />
+      <ExhibitionDetailRelatedExhibitions detail={detail} />
     </div>
   );
 }
