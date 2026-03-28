@@ -29,7 +29,7 @@ export function CraftsmenResults({
                 <ImageFrame
                   src={craftsman.image_url}
                   alt={craftsman.name}
-                  className="aspect-3/4"
+                  className="aspect-5/4"
                   sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
                 />
 
