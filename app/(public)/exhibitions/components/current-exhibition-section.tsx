@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { currentExhibition } from "../../(home)/components/data";
-import { ImageFrame } from "../../(home)/components/shared";
+import { ImageFrame } from "@/components/shared";
 
 export function CurrentExhibitionSection() {
   const exhibitionTags = ["Bamboo", "Embroidery", "Collaboration"];

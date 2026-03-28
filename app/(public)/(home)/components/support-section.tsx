@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { ctaClass, containerClass, eyebrowClass, sectionClass } from "./shared";
+import {
+  ctaClass,
+  containerClass,
+  eyebrowClass,
+  sectionClass,
+} from "@/components/shared";
 
 export function SupportSection() {
   return (

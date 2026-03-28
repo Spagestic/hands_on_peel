@@ -3,7 +3,7 @@ import {
   containerClass,
   sectionClass,
   SectionHeading,
-} from "../(home)/components/shared";
+} from "@/components/shared";
 import { shopProducts } from "@/data/shop-products";
 import { normaliseShopProducts } from "./utils";
 import { ShopBrowser } from "./components/shop-browser";

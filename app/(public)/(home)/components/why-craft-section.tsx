@@ -6,7 +6,7 @@ import {
   ctaClass,
   sectionClass,
   SectionHeading,
-} from "./shared";
+} from "@/components/shared";
 
 export function WhyCraftSection() {
   return (

@@ -2,7 +2,7 @@ import {
   containerClass,
   sectionClass,
   SectionHeading,
-} from "../../../../(home)/components/shared";
+} from "@/components/shared";
 import { ShopProductCard } from "../../../components/shop-product-card";
 import type { ShopProduct } from "../../../utils";
 

@@ -6,7 +6,7 @@ import {
   containerClass,
   sectionClass,
   SectionHeading,
-} from "../(home)/components/shared";
+} from "@/components/shared";
 import { Suspense } from "react";
 import { ExhibitionArchiveBrowser } from "./components/exhibition-archive-browser";
 import { CurrentExhibitionSection } from "./components/current-exhibition-section";

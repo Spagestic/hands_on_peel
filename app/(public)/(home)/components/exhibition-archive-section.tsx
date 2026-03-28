@@ -1,9 +1,16 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { exhibitionArchive } from "./data";
-import { containerClass, sectionClass, SectionHeading } from "./shared";
+import {
+  containerClass,
+  sectionClass,
+  SectionHeading,
+} from "@/components/shared";
 import { ArchivePosterCard } from "../../exhibitions/components/archive-poster-card";
-import { normalisePastExhibitions, type RawArchiveItem } from "../../exhibitions/utils";
+import {
+  normalisePastExhibitions,
+  type RawArchiveItem,
+} from "../../exhibitions/utils";
 import {
   Carousel,
   CarouselContent,

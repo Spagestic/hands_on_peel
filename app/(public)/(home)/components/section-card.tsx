@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { ImageFrame } from "./shared";
+import { ImageFrame } from "@/components/shared";
 
 export function SectionCard({
   title,

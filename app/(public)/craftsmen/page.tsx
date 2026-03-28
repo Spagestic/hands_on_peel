@@ -3,7 +3,7 @@ import {
   containerClass,
   sectionClass,
   SectionHeading,
-} from "../(home)/components/shared";
+} from "@/components/shared";
 import { Suspense } from "react";
 import {
   CraftsmenBrowser,

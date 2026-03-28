@@ -9,7 +9,7 @@ import {
   sectionClass,
   ImageFrame,
   ctaClass,
-} from "./shared";
+} from "@/components/shared";
 import {
   Carousel,
   CarouselContent,

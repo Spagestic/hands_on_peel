@@ -4,7 +4,7 @@ import {
   sectionClass,
   SectionHeading,
   ImageFrame,
-} from "./shared";
+} from "@/components/shared";
 
 export function CraftInEverydayLifeSection() {
   return (

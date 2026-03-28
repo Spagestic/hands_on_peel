@@ -6,7 +6,7 @@ import {
   containerClass,
   sectionClass,
   SectionHeading,
-} from "../(home)/components/shared";
+} from "@/components/shared";
 
 export default function ContactPage() {
   return (

@@ -5,7 +5,7 @@ import {
   containerClass,
   ImageFrame,
   sectionClass,
-} from "../../../../(home)/components/shared";
+} from "@/components/shared";
 import type { ShopProduct } from "../../../utils";
 
 export function ProductHero({ product }: { product: ShopProduct }) {

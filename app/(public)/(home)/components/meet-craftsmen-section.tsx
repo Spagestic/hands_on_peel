@@ -5,7 +5,7 @@ import {
   sectionClass,
   SectionHeading,
   ImageFrame,
-} from "./shared";
+} from "@/components/shared";
 import {
   Carousel,
   CarouselContent,

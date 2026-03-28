@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import { ImageFrame } from "../../(home)/components/shared";
+import { ImageFrame } from "@/components/shared";
 import type { ShopProduct } from "../utils";
 
 export function ShopProductCard({ item }: { item: ShopProduct }) {

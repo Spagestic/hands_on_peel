@@ -1,7 +1,7 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { ImageFrame } from "../../(home)/components/shared";
+import { ImageFrame } from "@/components/shared";
 
 type CraftsmanResultItem = {
   name: string;

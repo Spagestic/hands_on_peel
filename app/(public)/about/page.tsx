@@ -4,7 +4,7 @@ import {
   ImageFrame,
   sectionClass,
   SectionHeading,
-} from "../(home)/components/shared";
+} from "@/components/shared";
 
 export default function AboutPage() {
   return (
@@ -27,11 +27,11 @@ export default function AboutPage() {
                 contemporary design.
               </p>
               <p className={`${bodyClass} mt-6`}>
-                Located in a historic building in the heart of Hong Kong,
-                Crafts on Peel serves as a multi-purpose creative venue,
-                promoting the appreciation of craftsmanship and celebrating
-                shared cultural heritage through exhibitions, workshops, and
-                its Artisan-in-Residence programme.
+                Located in a historic building in the heart of Hong Kong, Crafts
+                on Peel serves as a multi-purpose creative venue, promoting the
+                appreciation of craftsmanship and celebrating shared cultural
+                heritage through exhibitions, workshops, and its
+                Artisan-in-Residence programme.
               </p>
             </article>
 
@@ -61,11 +61,11 @@ export default function AboutPage() {
                 A place where history meets the future
               </h2>
               <p className={`${bodyClass} mt-4`}>
-                Set in a historical walk-up built in 1948, the building
-                embodies Crafts on Peel&apos;s intent to connect history with
-                the future. To preserve and revitalize, modernized materials
-                are used in various finishes that contrast with the existing
-                masonry building, exposed brick walls, and staircases.
+                Set in a historical walk-up built in 1948, the building embodies
+                Crafts on Peel&apos;s intent to connect history with the future.
+                To preserve and revitalize, modernized materials are used in
+                various finishes that contrast with the existing masonry
+                building, exposed brick walls, and staircases.
               </p>
               <p className={`${bodyClass} mt-6`}>
                 This juxtaposition of the new and the old reflects our mission:
