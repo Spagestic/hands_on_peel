@@ -70,6 +70,7 @@ export type ExhibitionDetailModel = {
   slug: string;
   title: string;
   href: string;
+  heroImage?: string;
   leadImage?: string;
   leadImageSecondary?: string;
   leadImageCaption: string;
@@ -363,6 +364,7 @@ export function buildExhibitionDetailModel(
     slug,
     title: exhibition.title,
     href: exhibition.href,
+    heroImage: leadImage,
     leadImage,
     leadImageSecondary,
     leadImageCaption:
