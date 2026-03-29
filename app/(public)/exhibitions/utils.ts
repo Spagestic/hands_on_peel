@@ -1,6 +1,9 @@
 import { existsSync } from "node:fs";
 import { join } from "node:path";
-import { currentExhibition, exhibitionArchive } from "../(home)/components/data";
+import {
+  currentExhibition,
+  exhibitionArchive,
+} from "../(home)/components/data";
 import type { PastExhibition } from "./components/exhibition-archive-browser";
 
 export type CurrentExhibitionWithExtras = typeof currentExhibition & {
@@ -80,6 +83,9 @@ export type ExhibitionDetailModel = {
   yearLabel: string;
   statusLabel: string;
   summary: string;
+  intro: string;
+  narrative: string[];
+  infoPairs: { label: string; value: string }[];
   overview: string;
   foreword: string[];
   exhibitionSummary: string[];
@@ -347,18 +353,18 @@ export function buildExhibitionDetailModel(
     .join(" · ");
   const yearValue =
     exhibition.year ?? extractYear(metaText) ?? new Date().getFullYear();
-  const statusLabel = exhibition.status ?? (
-    isCurrentExhibition(exhibition) ? "Current exhibition" : "Past exhibition"
-  );
+  const statusLabel =
+    exhibition.status ??
+    (isCurrentExhibition(exhibition)
+      ? "Current exhibition"
+      : "Past exhibition");
   const leadImage =
     resolvePosterSource(exhibition.leadImage) ?? media[1] ?? media[0];
   const posterImage = resolvePosterSource(exhibition.poster) ?? media[0];
   const brochureHref =
     exhibition.brochureHref?.trim() ||
     buildDefaultBrochureHref(exhibition.href);
-  const leadImageSecondary = resolvePosterSource(
-    exhibition.leadImageSecondary,
-  );
+  const leadImageSecondary = resolvePosterSource(exhibition.leadImageSecondary);
 
   return {
     slug,
@@ -376,8 +382,10 @@ export function buildExhibitionDetailModel(
     yearLabel: `${yearValue}`,
     statusLabel,
     summary,
-    overview:
-      `${exhibition.title} offers a concise introduction to the exhibition's makers, materials, and curatorial context before the texts below.`,
+    intro: summary,
+    narrative: buildForeword(exhibition, summary),
+    infoPairs: buildDetailPairs(exhibition, yearValue, statusLabel),
+    overview: `${exhibition.title} offers a concise introduction to the exhibition's makers, materials, and curatorial context before the texts below.`,
     foreword: buildForeword(exhibition, summary),
     exhibitionSummary: buildExhibitionSummary(exhibition),
     detailPairs: buildDetailPairs(exhibition, yearValue, statusLabel),
