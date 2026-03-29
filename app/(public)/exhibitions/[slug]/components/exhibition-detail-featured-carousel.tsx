@@ -18,7 +18,7 @@ export function ExhibitionDetailFeaturedCarousel({
 }: {
   detail: ExhibitionDetailModel;
 }) {
-  if (detail.featuredWorks.length === 0) return null;
+  if (detail.relatedExhibitions.length === 0) return null;
 
   return (
     <section className={sectionClass}>
@@ -43,7 +43,7 @@ export function ExhibitionDetailFeaturedCarousel({
           </div>
 
           <CarouselContent className="-ml-6">
-            {detail.featuredWorks.map((item) => (
+            {detail.relatedExhibitions.map((item) => (
               <CarouselItem
                 key={item.href}
                 className="pl-6 basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
